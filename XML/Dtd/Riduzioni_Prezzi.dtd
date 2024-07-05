@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT riduzioni (riduzione*)>
+
+<!ELEMENT riduzione (sconti)>
+<!ATTLIST riduzione
+			idCliente CDATA #REQUIRED>
+
+<!ELEMENT sconti (aSoglia, fedeltaElite, acquistoPromozionale, perVIP, diAnzianita)>
+<!ELEMENT aSoglia EMPTY>
+<!ATTLIST aSoglia
+			idTariffaSoglia CDATA #REQUIRED
+			creditiSpesi CDATA #REQUIRED
+			superamenti CDATA #REQUIRED
+			fruibile CDATA #REQUIRED>
+
+<!ELEMENT fedeltaElite EMPTY>
+<!ATTLIST fedeltaElite 
+			idTariffaFedeltaElite CDATA #REQUIRED
+			creditiSpesi CDATA #REQUIRED
+			superamenti CDATA #REQUIRED
+			fruibile CDATA #REQUIRED
+			esercitabile CDATA #REQUIRED>
+			
+<!ELEMENT acquistoPromozionale (percentuale)>
+
+<!ELEMENT percentuale (#PCDATA)>
+		
+<!ELEMENT perVIP EMPTY>
+<!ATTLIST perVIP 
+			idTariffaPerVIP CDATA #REQUIRED
+			fruibile CDATA #REQUIRED>
+
+<!ELEMENT diAnzianita (percentuale)>
+<!ATTLIST diAnzianita 
+			idTariffaDiAnzianita CDATA #REQUIRED
+			fruibile CDATA #REQUIRED>

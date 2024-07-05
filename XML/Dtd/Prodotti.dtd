@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT prodotti (prodotto*)>
+
+<!ELEMENT prodotto (nome, tipologia, descrizione, immagine, prezzoListino, annoUscita, recensioni, discussioni)>
+<!ATTLIST prodotto 
+			id CDATA #REQUIRED>
+			
+<!ELEMENT nome (#PCDATA)>
+
+<!ELEMENT tipologia (libro|videogioco)>
+
+<!ELEMENT libro (categorie, autori)>
+
+<!ELEMENT categorie (categoria+)>
+<!ELEMENT categoria EMPTY>
+<!ATTLIST categoria
+			idCategoria CDATA #REQUIRED>
+
+<!ELEMENT autori (autore+)>
+<!ELEMENT autore (nome, cognome?)>
+<!ELEMENT cognome (#PCDATA)>
+
+<!ELEMENT videogioco (piattaforma, generi, casaProduzione)>
+
+<!ELEMENT piattaforma EMPTY>
+<!ATTLIST piattaforma
+			idPiattaforma CDATA #REQUIRED>
+
+<!ELEMENT generi (genere+)>
+<!ELEMENT genere EMPTY>
+<!ATTLIST genere
+			idGenere CDATA #REQUIRED>
+			
+<!ELEMENT casaProduzione (#PCDATA)>	
+
+<!ELEMENT descrizione (#PCDATA)>	
+
+<!ELEMENT immagine (#PCDATA)>	
+
+<!ELEMENT prezzoListino (#PCDATA)>	
+
+<!ELEMENT annoUscita (#PCDATA)>	
+
+<!ELEMENT recensioni (recensione*)>
+<!ELEMENT recensione EMPTY>
+<!ATTLIST recensione 
+			idRecensione CDATA #REQUIRED>
+
+<!ELEMENT discussioni (discussione*)>
+<!ELEMENT discussione EMPTY>
+<!ATTLIST discussione 
+			idDiscussione CDATA #REQUIRED>

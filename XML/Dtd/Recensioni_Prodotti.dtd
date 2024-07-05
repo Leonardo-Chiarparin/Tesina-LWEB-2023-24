@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT recensioni (recensione*)>
+<!ATTLIST recensioni 
+			ultimoId CDATA #REQUIRED>
+			
+<!ELEMENT recensione (titolo, testo, valutazione)>
+<!ATTLIST recensione
+			id CDATA #REQUIRED
+			idCliente CDATA #REQUIRED
+			dataPubblicazione CDATA #REQUIRED>
+
+<!ELEMENT titolo (#PCDATA)>
+
+<!ELEMENT testo (#PCDATA)>
+
+<!ELEMENT valutazione (perLibro|perVideogioco)>
+
+<!ELEMENT perLibro EMPTY>
+<!ATTLIST perLibro 		
+			trama CDATA #REQUIRED
+			caratterizzazionePersonaggi CDATA #REQUIRED
+			ambientazione CDATA #REQUIRED>
+			
+<!ELEMENT perVideogioco EMPTY>
+<!ATTLIST perVideogioco 
+			sceneggiatura CDATA #REQUIRED
+			tecnica CDATA #REQUIRED
+			giocabilita CDATA #REQUIRED>

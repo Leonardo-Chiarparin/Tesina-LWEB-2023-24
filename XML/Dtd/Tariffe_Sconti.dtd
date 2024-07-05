@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT tariffe (tariffaASoglia, tariffaFedeltaElite, tariffaPerVIP, tariffaDiAnzianita)>
+			
+<!ELEMENT tariffaASoglia EMPTY>
+<!ATTLIST tariffaASoglia
+			id CDATA #REQUIRED
+			soglia CDATA #REQUIRED 
+			basePercentuale CDATA #REQUIRED>
+			
+<!ELEMENT tariffaFedeltaElite EMPTY>
+<!ATTLIST tariffaFedeltaElite
+			id CDATA #REQUIRED
+			soglia CDATA #REQUIRED
+			basePercentuale CDATA #REQUIRED
+			dataPerControllo CDATA #REQUIRED>
+			
+<!ELEMENT tariffaPerVIP EMPTY>
+<!ATTLIST tariffaPerVIP
+			id CDATA #REQUIRED
+			sogliaReputazione CDATA #REQUIRED
+			basePercentuale CDATA #REQUIRED>
+			
+<!ELEMENT tariffaDiAnzianita EMPTY>
+<!ATTLIST tariffaDiAnzianita
+			id CDATA #REQUIRED
+			sogliaAnniMinima CDATA #REQUIRED
+			sogliaAnniMassima CDATA #REQUIRED
+			basePercentuale CDATA #REQUIRED>

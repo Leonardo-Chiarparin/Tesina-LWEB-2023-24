@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT categorie (categoria+)>
+			
+<!ELEMENT categoria (denominazione)>
+<!ATTLIST categoria 
+			id CDATA #REQUIRED>
+			
+<!ELEMENT denominazione (#PCDATA)>

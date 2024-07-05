@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT generi (genere+)>
+			
+<!ELEMENT genere (denominazione)>
+<!ATTLIST genere 
+			id CDATA #REQUIRED>
+			
+<!ELEMENT denominazione (#PCDATA)>
