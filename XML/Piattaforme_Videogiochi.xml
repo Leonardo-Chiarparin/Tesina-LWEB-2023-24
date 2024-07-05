@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE piattaforme SYSTEM "Dtd/Piattaforme_Videogiochi.dtd">
+
+<piattaforme>
+	<piattaforma id="1">
+		<denominazione>PlayStation 4</denominazione>
+	</piattaforma>
+</piattaforme>

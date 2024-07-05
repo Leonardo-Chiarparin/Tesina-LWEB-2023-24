@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tariffe SYSTEM "Dtd/Tariffe_Sconti.dtd">
+
+<tariffe>
+	<tariffaASoglia id="1" soglia="200.00" basePercentuale="2.00"></tariffaASoglia>
+	<tariffaFedeltaElite id="2" soglia="150.00" basePercentuale="5.00" dataPerControllo="2024-01-01"></tariffaFedeltaElite>
+	<tariffaPerVIP id="3" sogliaReputazione="66" basePercentuale="5.00"></tariffaPerVIP>
+	<tariffaDiAnzianita id="4" sogliaAnniMinima="1" sogliaAnniMassima="3" basePercentuale="1.00"></tariffaDiAnzianita>	
+</tariffe>

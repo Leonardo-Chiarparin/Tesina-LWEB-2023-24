@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<offerte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema/Offerte.xsd" ultimoId="2">
+	<offerta id="1" idProdotto="1">
+		<prezzoContabile>52.45</prezzoContabile>
+		<quantitativo>29</quantitativo>
+		<bonus>
+			<numeroCrediti>25.00</numeroCrediti>
+		</bonus>
+	</offerta>
+	<offerta id="2" idProdotto="2">
+		<prezzoContabile>84.50</prezzoContabile>
+		<sconto>
+			<scontoFuturo percentuale="2.00" inizioApplicazione="2024-06-01" fineApplicazione="2024-09-01"></scontoFuturo>
+		</sconto>
+		<quantitativo>29</quantitativo>
+	</offerta>
+</offerte>

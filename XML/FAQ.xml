@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<faq xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema/FAQ.xsd" ultimoId="1">
+	<singolaFaq id="1">
+		<resocontoDiscussione>
+			<discussioneDaZero>
+				<titolo>Indirizzo di consegna diverso</titolo>
+				<descrizione>Come posso cambiare l'indirizzo di spedizione prima di procedere con il pagamento dell'ordine?</descrizione>
+			</discussioneDaZero>
+		</resocontoDiscussione>
+		<interventoDiscussione>
+			<interventoDaZero>
+				<testo>
+					Se hai bisogno di modificare l'ubicazione a cui recapitare gli articoli da acquistare, è possibile compilare il relativo modulo nella schermata di conferma dell'acquisto. Proprio per questo, non avere timore di apportare dei cambiamenti alle tue 
+					preferenze.
+				</testo>
+			</interventoDaZero>
+		</interventoDiscussione>
+	</singolaFaq>
+</faq>

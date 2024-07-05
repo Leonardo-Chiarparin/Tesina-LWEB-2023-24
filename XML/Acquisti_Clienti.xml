@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<acquisti xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema/Acquisti_Clienti.xsd">
+  <acquistiPerCliente idCliente="4" ultimoIdPerAcquisto="1">
+	<acquistoPerCliente id="1" dataAcquisto="2024-05-28" dataConsegna="2024-05-30" prezzoTotale="52.45" scontoGenerale="0.00">
+		<offerta id="1" idProdotto="1">
+			<prezzoContabile>52.45</prezzoContabile>
+			<quantitativo>1</quantitativo>
+			<bonus>
+				<numeroCrediti>25.00</numeroCrediti>
+			</bonus>
+		</offerta>
+	</acquistoPerCliente>
+  </acquistiPerCliente>
+  <acquistiPerCliente idCliente="5" ultimoIdPerAcquisto="0">
+  </acquistiPerCliente>
+  <acquistiPerCliente idCliente="6" ultimoIdPerAcquisto="0">
+  </acquistiPerCliente>
+</acquisti>

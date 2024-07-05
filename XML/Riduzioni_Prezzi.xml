@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE riduzioni SYSTEM "Dtd/Riduzioni_Prezzi.dtd">
+
+<riduzioni>
+	<riduzione idCliente="4">
+		<sconti>
+			<aSoglia idTariffaSoglia="1" creditiSpesi="52.45" superamenti="0" fruibile="0"></aSoglia>
+			<fedeltaElite idTariffaFedeltaElite="2" creditiSpesi="52.45" superamenti="0" fruibile="0" esercitabile="1"></fedeltaElite>
+			<acquistoPromozionale>
+				<percentuale>0.00</percentuale>
+			</acquistoPromozionale>
+			<perVIP idTariffaPerVIP="3" fruibile="0"></perVIP>
+			<diAnzianita idTariffaDiAnzianita="4" fruibile="0">
+				<percentuale>0.00</percentuale>
+			</diAnzianita>
+		</sconti>
+	</riduzione>
+	<riduzione idCliente="5">
+		<sconti>
+			<aSoglia idTariffaSoglia="1" creditiSpesi="0.00" superamenti="0" fruibile="0"></aSoglia>
+			<fedeltaElite idTariffaFedeltaElite="2" creditiSpesi="0.00" superamenti="0" fruibile="0" esercitabile="1"></fedeltaElite>
+			<acquistoPromozionale>
+				<percentuale>0.00</percentuale>
+			</acquistoPromozionale>
+			<perVIP idTariffaPerVIP="3" fruibile="0"></perVIP>
+			<diAnzianita idTariffaDiAnzianita="4" fruibile="0">
+				<percentuale>0.00</percentuale>
+			</diAnzianita>
+		</sconti>
+	</riduzione>
+	<riduzione idCliente="6">
+		<sconti>
+			<aSoglia idTariffaSoglia="1" creditiSpesi="0.00" superamenti="0" fruibile="0"></aSoglia>
+			<fedeltaElite idTariffaFedeltaElite="2" creditiSpesi="0.00" superamenti="0" fruibile="0" esercitabile="1"></fedeltaElite>
+			<acquistoPromozionale>
+				<percentuale>0.00</percentuale>
+			</acquistoPromozionale>
+			<perVIP idTariffaPerVIP="3" fruibile="0"></perVIP>
+			<diAnzianita idTariffaDiAnzianita="4" fruibile="0">
+				<percentuale>0.00</percentuale>
+			</diAnzianita>
+		</sconti>
+	</riduzione>
+</riduzioni>

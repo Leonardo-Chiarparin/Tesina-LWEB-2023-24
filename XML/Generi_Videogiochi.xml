@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generi SYSTEM "Dtd/Generi_Videogiochi.dtd">
+
+<generi>
+	<genere id="1">
+		<denominazione>Azione</denominazione>
+	</genere>
+	<genere id="2">
+		<denominazione>Avventura</denominazione>
+	</genere>
+</generi>

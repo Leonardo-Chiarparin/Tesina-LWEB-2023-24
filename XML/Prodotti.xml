@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE prodotti SYSTEM "Dtd/Prodotti.dtd">
+
+<prodotti>
+	<prodotto id="1">
+		<nome>Bloodborne</nome>
+		<tipologia>
+			<videogioco>
+				<piattaforma idPiattaforma="1"></piattaforma>
+				<generi>
+					<genere idGenere="1"></genere>
+					<genere idGenere="2"></genere>
+				</generi>
+				<casaProduzione>FromSoftware</casaProduzione>
+			</videogioco>
+		</tipologia>
+		<descrizione>Un incredibile viaggio in una città gotica ricostruita con una dovizia di dettagli e popolata da incubi e tenebre!</descrizione>
+		<immagine>../Immagini/Bloodborne_Ps4.jpg</immagine>
+		<prezzoListino>104.95</prezzoListino>
+		<annoUscita>2015</annoUscita>
+		<recensioni>
+			<recensione idRecensione="1"></recensione>
+		</recensioni>
+		<discussioni>
+			<discussione idDiscussione="1"></discussione>
+		</discussioni>
+	</prodotto>
+	<prodotto id="2">
+		<nome>Fuga dal campo 14</nome>
+		<tipologia>
+			<libro>
+				<categorie>
+					<categoria idCategoria="1"></categoria>
+				</categorie>
+				<autori>
+					<autore>
+						<nome>Blain</nome>
+						<cognome>Harden</cognome>
+					</autore>
+				</autori>
+			</libro>
+		</tipologia>
+		<descrizione>Shin Dong-hyuk è l'unico uomo nato in un campo di prigionia della Corea del Nord ad essere riuscito a scappare. La sua fuga e il libro che la racconta sono diventati un caso internazionale, che ha convinto le Nazioni Unite a costituire una commissione d'indagine sui campi di prigionia nordcoreani. Il Campo 14 è grande quanto Los Angeles, ed è visibile su Google Maps: eppure resta invisibile agli occhi del mondo. Il crimine che Shin ha commesso è avere uno zio che negli anni cinquanta fuggì in Corea del Sud; nasce quindi nel 1982 dietro il filo spinato del campo, dove la sua famiglia è stata rinchiusa da decenni. Non sa che esiste il mondo esterno, ed è a tutti gli effetti uno schiavo. Solo a ventitré anni riuscirà a fuggire, grazie all'aiuto di un compagno che tenterà la fuga con lui, e ad arrivare a piedi e con vestiti di fortuna in Cina, e da lì in America. Questa è la sua storia.</descrizione>
+		<immagine>../Immagini/Fuga_dal_Campo_14.jpg</immagine>
+		<prezzoListino>84.50</prezzoListino>
+		<annoUscita>2012</annoUscita>
+		<recensioni>
+			<recensione idRecensione="2"></recensione>
+		</recensioni>
+		<discussioni>
+		</discussioni>
+	</prodotto>
+</prodotti>

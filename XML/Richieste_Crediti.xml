@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<richieste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema/Richieste_Crediti.xsd" ultimoId="2">
+	<richiesta id="1" idRichiedente="4" dataOraRichiesta="2024-05-31 10:00:00" numeroCrediti="52.45" stato="Accettata"></richiesta>
+	<richiesta id="2" idRichiedente="6" dataOraRichiesta="2024-05-31 09:00:00" numeroCrediti="84.50" stato="In Corso"></richiesta>
+</richieste>
