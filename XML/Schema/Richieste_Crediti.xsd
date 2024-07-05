@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xsd:element name="richieste">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="richiesta" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+			<xsd:attribute name="ultimoId" type="xsd:integer" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="richiesta">
+		<xsd:complexType>
+			<xsd:attribute name="id" type="xsd:positiveInteger" use="required" />
+			<xsd:attribute name="idRichiedente" type="xsd:positiveInteger" use="required" />
+			<xsd:attribute name="dataOraRichiesta" type="xsd:string" use="required" />
+			<xsd:attribute name="numeroCrediti" type="xsd:decimal" use="required" />
+			<xsd:attribute name="stato" use="required">
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:enumeration value="Rifiutata" />
+						<xsd:enumeration value="In Corso" />
+						<xsd:enumeration value="Accettata" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+
+</xsd:schema>

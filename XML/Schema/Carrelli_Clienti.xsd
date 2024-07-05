@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<xsd:include schemaLocation="Offerte.xsd" />
+	
+	<xsd:element name="carrelli">
+		<xsd:complexType> 
+			<xsd:sequence>
+				<xsd:element ref="carrello" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="carrello">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="offerta" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+			<xsd:attribute name="idCliente" type="xsd:positiveInteger" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

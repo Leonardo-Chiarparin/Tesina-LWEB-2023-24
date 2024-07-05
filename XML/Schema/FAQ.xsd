@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xsd:element name="faq">
+		<xsd:complexType> 
+			<xsd:sequence>
+				<xsd:element ref="singolaFaq" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+			<xsd:attribute name="ultimoId" type="xsd:integer" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="singolaFaq">
+		<xsd:complexType> 
+			<xsd:sequence>
+				<xsd:element ref="resocontoDiscussione" minOccurs="1" maxOccurs="1" />
+				<xsd:element ref="interventoDiscussione" minOccurs="1" maxOccurs="1" />
+			</xsd:sequence>
+			<xsd:attribute name="id" type="xsd:positiveInteger" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="resocontoDiscussione">
+		<xsd:complexType>
+			<xsd:choice>
+				<xsd:element ref="discussioneDaZero" minOccurs="1" maxOccurs="1" />
+				<xsd:element ref="discussioneEsistente" minOccurs="1" maxOccurs="1" />
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>	
+	
+	<xsd:element name="discussioneDaZero">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="titolo" type="xsd:string" minOccurs="1" maxOccurs="1" />
+				<xsd:element name="descrizione" type="xsd:string" minOccurs="1" maxOccurs="1" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>	
+	
+	<xsd:element name="discussioneEsistente">
+		<xsd:complexType>
+			<xsd:attribute name="idDiscussione" type="xsd:positiveInteger" use="required" />
+		</xsd:complexType>
+	</xsd:element>	
+	
+	<xsd:element name="interventoDiscussione">
+		<xsd:complexType>
+			<xsd:choice>
+				<xsd:element ref="interventoDaZero" minOccurs="1" maxOccurs="1" />
+				<xsd:element ref="interventoEsistente" minOccurs="1" maxOccurs="1" />
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>	
+	
+	<xsd:element name="interventoDaZero">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="testo" type="xsd:string" minOccurs="1" maxOccurs="1" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>	
+	
+	<xsd:element name="interventoEsistente">
+		<xsd:complexType>
+			<xsd:attribute name="idIntervento" type="xsd:positiveInteger" use="required" />
+		</xsd:complexType>
+	</xsd:element>	
+	
+</xsd:schema>

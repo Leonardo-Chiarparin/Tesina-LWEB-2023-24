@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xsd:element name="segnalazioni">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="segnalazione" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+			<xsd:attribute name="ultimoId" type="xsd:integer" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="segnalazione">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="testo" type="xsd:string" minOccurs="1" maxOccurs="1" />
+				<xsd:element ref="tipoSegnalazione" minOccurs="1" maxOccurs="1" />
+			</xsd:sequence>
+			<xsd:attribute name="id" type="xsd:positiveInteger" use="required" />
+			<xsd:attribute name="idSegnalato" type="xsd:positiveInteger" use="required" />
+			<xsd:attribute name="idSegnalatore" type="xsd:positiveInteger" use="required" />
+			<xsd:attribute name="dataOraSegnalazione" type="xsd:string" use="required" />
+			<xsd:attribute name="categoria" use="required">
+				<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+							<xsd:enumeration value="Tematiche Inappropriate"/>
+							<xsd:enumeration value="Contenuti Fraudolenti"/>
+					        <xsd:enumeration value="Linguaggio Volgare"/>
+						</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+			<xsd:attribute name="seen" use="required">
+				<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+							<xsd:enumeration value="No"/>
+							<xsd:enumeration value="Si"/>
+						</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>	
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="tipoSegnalazione">
+		<xsd:complexType>
+			<xsd:choice>
+				<xsd:element ref="perRecensione" minOccurs="1" maxOccurs="1" />
+				<xsd:element ref="perIntervento" minOccurs="1" maxOccurs="1" />
+			</xsd:choice>
+			<xsd:attribute name="idProdotto" type="xsd:positiveInteger" use="required" /> 
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="perRecensione">
+		<xsd:complexType>
+			<xsd:attribute name="idRecensione" type="xsd:positiveInteger" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="perIntervento">
+		<xsd:complexType>
+			<xsd:attribute name="idIntervento" type="xsd:positiveInteger" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+
+</xsd:schema>

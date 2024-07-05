@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xsd:include schemaLocation="Offerte.xsd" />
+
+	<xsd:element name="acquisti">
+		<xsd:complexType> 
+			<xsd:sequence>
+				<xsd:element ref="acquistiPerCliente" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="acquistiPerCliente">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="acquistoPerCliente" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+			<xsd:attribute name="idCliente" type="xsd:positiveInteger" use="required" />
+			<xsd:attribute name="ultimoIdPerAcquisto" type="xsd:integer" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+	
+	
+	<xsd:element name="acquistoPerCliente">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="offerta" minOccurs="1" maxOccurs="unbounded" />
+			</xsd:sequence>
+			<xsd:attribute name="id" type="xsd:positiveInteger" use="required" />
+			<xsd:attribute name="dataAcquisto" type="xsd:date" use="required" />
+			<xsd:attribute name="dataConsegna" type="xsd:date" use="required" />
+			<xsd:attribute name="prezzoTotale" type="xsd:decimal" use="required" />
+			<xsd:attribute name="scontoGenerale" type="xsd:decimal" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+	
+</xsd:schema>

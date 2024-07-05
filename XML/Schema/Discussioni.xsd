@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xsd:element name="discussioni">
+		<xsd:complexType> 
+			<xsd:sequence>
+				<xsd:element ref="discussione" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+			<xsd:attribute name="ultimoId" type="xsd:integer" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="discussione">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="titolo" minOccurs="1" maxOccurs="1" />
+				<xsd:element ref="descrizione" minOccurs="1" maxOccurs="1" />
+				<xsd:element ref="interventi" minOccurs="1" maxOccurs="1" />
+			</xsd:sequence>
+			<xsd:attribute name="id" type="xsd:positiveInteger" use="required" />
+			<xsd:attribute name="idAutore" type="xsd:positiveInteger" use="required" />
+			<xsd:attribute name="dataOraIssue" type="xsd:string" use="required" />
+			<xsd:attribute name="moderata" use="required">
+				<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+							<xsd:enumeration value="No"/>
+							<xsd:enumeration value="Si"/>
+						</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+			<xsd:attribute name="risolta" use="required">
+				<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+							<xsd:enumeration value="No"/>
+							<xsd:enumeration value="Si"/>
+						</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="titolo" type="xsd:string" />
+	<xsd:element name="descrizione" type="xsd:string" />
+	
+	<xsd:element name="interventi">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="intervento" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+			<xsd:attribute name="ultimoId" type="xsd:integer" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="intervento">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="testo" minOccurs="1" maxOccurs="1" />
+				<xsd:element ref="valutazioni" minOccurs="1" maxOccurs="1" />
+			</xsd:sequence>
+			<xsd:attribute name="id" type="xsd:positiveInteger" use="required" />
+			<xsd:attribute name="idPartecipante" type="xsd:positiveInteger" use="required" />
+			<xsd:attribute name="dataOraIssue" type="xsd:string" use="required" />
+			<xsd:attribute name="moderato" use="required">
+				<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+							<xsd:enumeration value="No"/>
+							<xsd:enumeration value="Si"/>
+						</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="testo" type="xsd:string" />
+
+	<xsd:element name="valutazioni">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="valutazione" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="valutazione">
+		<xsd:complexType>
+			<xsd:attribute name="idVotante" type="xsd:positiveInteger" use="required" />
+			<xsd:attribute name="supporto" use="required">
+				<xsd:simpleType>
+						<xsd:restriction base="xsd:positiveInteger">
+							<xsd:minInclusive value="1"/>
+							<xsd:maxInclusive value="5"/>
+						</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+			<xsd:attribute name="utilita" use="required">
+				<xsd:simpleType>
+						<xsd:restriction base="xsd:positiveInteger">
+							<xsd:minInclusive value="1"/>
+							<xsd:maxInclusive value="5"/>
+						</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

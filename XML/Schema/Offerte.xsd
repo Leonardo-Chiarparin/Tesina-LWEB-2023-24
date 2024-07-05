@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xsd:element name="offerte">
+		<xsd:complexType> 
+			<xsd:sequence>
+				<xsd:element ref="offerta" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+			<xsd:attribute name="ultimoId" type="xsd:integer" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="offerta">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="prezzoContabile" minOccurs="1" maxOccurs="1" />
+				<xsd:element ref="sconto" minOccurs="0" maxOccurs="1" />
+				<xsd:element ref="quantitativo" minOccurs="1" maxOccurs="1" />
+				<xsd:element ref="bonus" minOccurs="0" maxOccurs="1" />
+			</xsd:sequence>
+	   
+			<xsd:attribute name="id" type="xsd:positiveInteger" use="required" />
+			<xsd:attribute name="idProdotto" type="xsd:positiveInteger" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="prezzoContabile" type="xsd:decimal"/>
+	<xsd:element name="quantitativo" type="xsd:integer"/>
+	<xsd:element name="sconto" type="riduzione"/>
+	<xsd:element name="bonus" type="incentivo" />
+	
+	<xsd:complexType name="riduzione">
+		<xsd:choice>
+			<xsd:element ref="scontoATempo" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="scontoFuturo" minOccurs="1" maxOccurs="1" />
+		</xsd:choice>
+	</xsd:complexType>
+	
+	<xsd:element name="scontoATempo">
+		<xsd:complexType>	
+			<xsd:attribute name="percentuale" type="xsd:decimal" use="required" />
+			<xsd:attribute name="inizioApplicazione" type="xsd:date" use="required" />
+			<xsd:attribute name="fineApplicazione" type="xsd:date" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+		
+	<xsd:element name="scontoFuturo">	
+		<xsd:complexType>	
+			<xsd:attribute name="percentuale" type="xsd:decimal" use="required" />
+			<xsd:attribute name="inizioApplicazione" type="xsd:date" use="required" />
+			<xsd:attribute name="fineApplicazione" type="xsd:date" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+		
+	<xsd:complexType name="incentivo">
+		<xsd:sequence>
+			<xsd:element ref="numeroCrediti" minOccurs="1" maxOccurs="1" />
+		</xsd:sequence>
+	</xsd:complexType>
+			
+	<xsd:element name="numeroCrediti" type="xsd:decimal" />
+	
+</xsd:schema>
