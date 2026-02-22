@@ -23,7 +23,7 @@
 
 .oggetti_carosello {
 	animation: animazione_carosello 25s infinite;
-	animation-delay: 3.5s;
+	animation-delay: 1.5s;
 }
 
 .oggetto_carosello {
@@ -157,7 +157,7 @@
 }
 
 #indicatore_1, #indicatore_2, #indicatore_3 {
-	animation-delay: 3.5s;
+	animation-delay: 1.5s;
 }
 
 @keyframes animazione_carosello {
@@ -220,6 +220,11 @@
 	background-color: rgb(56, 58, 58);
 }
 
+.elenco_prodotti {
+	overflow: hidden;
+	background-color: rgb(32, 32, 32);
+}
+
 .funzionamento {
 	padding-bottom: 5em;
 }
@@ -247,7 +252,7 @@
 	align-items: center;
 }
 
-.icona_offerte, .icona_negozio, .icona_funzionamento {
+.icona_prodotti, .icona_negozio, .icona_funzionamento {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -258,7 +263,7 @@
 	border-radius: 50%;
 }
 
-.icona_offerte img, .icona_negozio img, .icona_funzionamento img {
+.icona_prodotti img, .icona_negozio img, .icona_funzionamento img {
 	width: 55%;
 	height: 55%;
 }
@@ -297,7 +302,7 @@
 
 .categoria_prodotti {
 	display: flex;
-	width: 50%;
+	width: 42.5em;
 	margin-bottom: 1.5em;
 }
 
@@ -335,7 +340,9 @@
 	border-bottom-right-radius: 50%;
 	border-top-left-radius: 50%;
 	border-top-right-radius: 50%;
+	background-color: rgb(119, 119, 119);
 	border: 0.1em solid rgb(119, 119, 119);
+	cursor: pointer;
 	box-shadow: 0em 0.5em 1em rgb(32, 32, 32);			
 }
 
@@ -351,6 +358,7 @@
 .container_categoria_prodotti a {
 	font-size: 0.875em;
 	margin-bottom: 1.25em;
+	z-index: 1;
 }
 
 

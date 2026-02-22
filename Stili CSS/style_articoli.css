@@ -1,0 +1,307 @@
+.articoli {
+	padding-top: 1em;
+	padding-bottom: 5em;
+	background-color: rgb(56, 58, 58);
+}
+
+.container_articoli {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.intestazione_articoli {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 0.25em;
+	margin-bottom: 1.5em; 
+	border-bottom: 0.1em solid rgb(119, 119, 119);
+}
+
+.container_intestazione_articoli {
+	display: flex;
+	align-items: center;
+}
+
+.icona_articoli {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 2em;
+	height: 2em;
+	margin-right: 0.25em;
+	background-color: rgb(255, 255, 255);
+	border-radius: 50%;
+}
+
+.icona_articoli img {
+	width: 55%;
+	height: 55%;
+}
+
+.container_intestazione_articoli h2 {
+	font-size: 1.95em;
+	line-height: 1.2;
+	padding-left: 0.25em;
+}
+
+.contenuto_articoli {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-top: 2%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	border: 0.1em solid rgb(119, 119, 119);
+	border-radius: 0.25em;
+	margin-bottom: 1.5em;
+	box-shadow: 0em 0.5em 1em rgb(32, 32, 32);
+}
+
+.elenco_articoli {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+}
+
+.intestazione_elenco_articoli {
+	font-size: 1.25em;
+	margin-bottom: 1em;
+	width: 100%;
+}
+
+.piattaforme_videogiochi, .categorie_libri, .selezione_articoli {
+	display: flex;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.piattaforma_videogiochi, .categoria_libri {
+	display: flex;
+	width: 25%;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+.piattaforme_videogiochi:last-child .piattaforma_videogiochi, .categorie_libri:last-child .categoria_libri {
+	margin-bottom: 1.5em;
+}
+
+.container_piattaforma_videogiochi, .container_categoria_libri, .container_articolo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.container_piattaforma_videogiochi, .container_categoria_libri {
+	padding-top: 1.25em;
+	padding-bottom: 1.25em;
+	padding-left: 0.875em;
+	padding-right: 0.875em;
+	text-align: center;
+}
+
+.container_articolo {
+	background-color: rgb(32, 32, 32);
+	border: 0.1em solid rgb(119, 119, 119);
+	border-radius: 0.25em;
+}
+
+.container_piattaforma_videogiochi:hover, .container_categoria_libri:hover, .container_articolo:hover {
+	border-radius: 0.25em;
+	background-color: rgb(119, 119, 119);
+}
+
+.anteprima_piattaforma, .anteprima_categoria {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 10.25em;
+	height: 10.25em;
+	margin-bottom: 1.25em;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	background-color: rgb(255, 255, 255);
+	border: 0.1em solid rgb(255, 255, 255);
+	box-shadow: 0em 0.5em 1em rgb(32, 32, 32);
+}
+
+.anteprima_piattaforma img, .anteprima_categoria img {
+	width: 55%;
+	height: 55%;
+	z-index: 1;
+}
+
+.titolo_piattaforma, .titolo_categoria {
+	font-size: 1.25em;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+.elenco_articoli {
+	padding-bottom: 1.25em;
+	margin-bottom: 1.25em;
+	border-bottom: 0.1em solid rgb(119, 119, 119);
+}
+
+.articolo {
+	display: flex;
+	width: 25%;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	margin-bottom: 1.5em;
+}
+
+.articolo:not(:last-child) {
+	margin-right: 0.75%;
+}
+
+.anteprima_articolo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 10.25em;
+	height: 15.675em;
+	margin-top: 2.75em;
+	margin-bottom: 1.25em;
+	background-color: transparent;
+	box-shadow: 0em 0.5em 1em rgb(32, 32, 32);
+}
+
+.anteprima_articolo img {
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.dettagli_articolo {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 12.25em;
+	overflow: hidden;
+	margin-bottom: 2.25em;
+}
+
+.nome {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin-bottom: 0.125em;
+}
+
+.casa_produzione, .autori {
+	font-size: 0.75em;
+	margin-bottom: 0.5em;
+}
+
+.prezzo, .sconto, .bonus {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.dettagli_articolo span span:last-child {
+	font-weight: bold;
+}
+
+.prezzo, .sconto {
+	margin-bottom: 0.25em;
+}
+
+.recensioni {
+	margin-top: 0.5em;
+}
+
+.container_recensioni {
+	display: flex; 
+	flex-direction: column; 
+}
+
+.valutazioni {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 0.25em;
+}
+
+.valutazione {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 1em;
+	font-weight: normal!important;
+}
+
+.valutazione:not(:last-child) {
+	margin-bottom: 0.25em;
+}
+
+.valutazione span:last-child {
+	display: flex;
+	height: 100%;
+}
+
+.valutazione img {
+	width: 1em;
+	vertical-align: middle;
+	margin-left: 0.25em;
+}
+
+.nome, .casa_produzione, .prezzo, .sconto, .bonus, .recensioni, .autori {
+	margin-left: 0.875em;
+	margin-right: 0.875em;
+}
+
+.casa_produzione, .autori {
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.pulsante {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	width: 100%;
+	margin-top: 0.75em;
+	margin-bottom: 2em;
+}
+
+.container_pulsante {
+	font-size: 0.875em;
+	height: 3.15em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border-radius: 1.5em;
+	color: rgb(255,255,255);
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background-color: rgb(217,118,64);
+	border: 0.1em solid rgb(247,148,94);
+	text-transform: uppercase;
+}
+
+.container_pulsante:hover{
+	background-color: rgb(247,148,94);
+}
+
+.back {
+	background-color: rgb(119, 119, 119);
+	border-color: rgb(149, 149, 149);
+}
+
+.back:hover {
+	background-color: rgb(149, 149, 149);
+}

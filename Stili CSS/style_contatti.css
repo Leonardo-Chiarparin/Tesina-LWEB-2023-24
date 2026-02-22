@@ -50,11 +50,16 @@
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
+	border: 0.1em solid rgb(119, 119, 119);
+	border-radius: 0.25em;
+	margin-bottom: 1.5em;
+	box-shadow: 0em 0.5em 1em rgb(32, 32, 32);
 }
 
 .mappa, .elenco_contatti {
 	display: flex;
 	width: 50%;
+	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 }
 
@@ -83,14 +88,12 @@
 	padding-top: 0.75em;
 	padding-bottom: 0.75em;
 	padding-right: 0.75em;
-	background-color: rgb(56, 58, 58);
-	border: 0.1em solid rgb(119, 119, 119);
-	border-radius: 0.25em;
 }
 
 .container_elenco_contatti {
-	width: 100%;
-	text-align: justify;
+	padding: 0.75em;
+	border: 0.1em solid rgb(119, 119, 119);
+	border-radius: 0.25em;
 }
 
 .container_elenco_contatti h3 {

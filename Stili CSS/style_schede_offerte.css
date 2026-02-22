@@ -1,0 +1,435 @@
+.schede_offerte {
+	padding-top: 1em;
+	padding-bottom: 5em;
+	background-color: rgb(56, 58, 58);
+}
+
+.container_schede_offerte {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.intestazione_schede_offerte {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 0.25em;
+	margin-bottom: 1.5em; 
+	border-bottom: 0.1em solid rgb(119, 119, 119);
+}
+
+.container_intestazione_schede_offerte {
+	display: flex;
+	align-items: center;
+}
+
+.icona_schede_offerte {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 2em;
+	height: 2em;
+	margin-right: 0.25em;
+	background-color: rgb(255, 255, 255);
+	border-radius: 50%;
+}
+
+.icona_schede_offerte img {
+	width: 55%;
+	height: 55%;
+}
+
+.container_intestazione_schede_offerte h2 {
+	font-size: 1.95em;
+	line-height: 1.2;
+	padding-left: 0.25em;
+}
+
+.contenuto_schede_offerte {
+	padding-top: 2%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	border: 0.1em solid rgb(119, 119, 119);
+	border-radius: 0.25em;
+	margin-bottom: 1.5em;
+	box-shadow: 0em 0.5em 1em rgb(32, 32, 32);
+}
+
+.elenco_schede_offerte {
+	width: 100%;
+}
+
+.dettagli_scheda_offerta {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.container_dettagli_scheda_offerta {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 2%;
+	padding-bottom: 1.5em;
+}
+
+.intestazione_dettagli_scheda_offerta {
+	padding-right: 1.25em;
+	padding-left: 1.25em;
+	padding-top: 1.25em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.intestazione_dettagli_scheda_offerta:first-child {
+	width: 12.25em;
+	height: 17.675em;
+	margin-left: 0em;
+	padding-left: 0em;
+	margin-right: 0.25em;
+	margin-top: 0.325em;
+}
+
+.intestazione_dettagli_scheda_offerta:first-child img {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	box-shadow: 0em 0.5em 1em rgb(32, 32, 32);
+}
+
+.intestazione_dettagli_scheda_offerta:nth-child(2) {
+	padding-left: 0em;
+	padding-right: 0.875em;
+	margin-left: 0em;
+	width: 50%;
+}
+
+.dettagli_principali_scheda_offerta {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	border-bottom: 0.1em solid rgb(119, 119, 119);
+	margin-bottom: 0.875em;
+}
+
+.dettagli_principali_scheda_offerta h1 {
+	font-size: 1em;
+	margin-bottom: 0.375em;
+}
+
+.titolo_prodotto {
+	font-size: 1.5em;
+}
+
+.sottotitolo_prodotto {
+	font-size: 1.25em;
+	color: rgb(119, 119, 119);
+}
+
+.dettagli_aggiuntivi_scheda_offerta {
+	font-size: 0.875em;
+	margin-bottom: 0.5em;
+}
+
+.dettagli_aggiuntivi_scheda_offerta a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+.dettagli_aggiuntivi_scheda_offerta a:hover {
+	text-decoration: underline;
+}
+
+.dettagli_principali_scheda_offerta a {
+	text-decoration: none;
+	color: rgb(119, 119, 119);
+}
+
+.dettagli_principali_scheda_offerta a:hover {
+	text-decoration: underline;
+}
+
+.descrizione_prodotto_scheda_offerta {
+	width: 100%;
+	border-top: 0.1em solid rgb(119, 119, 119);
+	border-bottom: 0.1em solid rgb(119, 119, 119);
+	margin-bottom: 0.875em;
+}
+
+.intestazione_dettagli_scheda_offerta:last-child {
+	width: 30%;
+	padding-left: 0em;
+	margin-right: 0em;
+	padding-right: 0em;
+	margin-top: 1.675em;
+	margin-bottom: 1.675em;
+}
+
+.autori, .casa_produzione, .generi {
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.recensioni {
+	display: flex; 
+	align-items: center;
+}
+
+.valutazione {
+	display: flex; 
+	align-items: center; 
+	height: 1em; 
+	font-weight: bold;  
+	margin-left: 0.375em;
+}
+
+.valutazione img {
+	width: 1em; 
+	vertical-align: middle; 
+	margin-left: 0.25em;
+}
+
+.voti {
+	margin-left: 0.875em; 
+	font-weight: bold;
+	cursor: pointer;	
+}
+
+.voti:hover {
+	text-decoration: underline;
+}
+
+.container_descrizione_prodotto_scheda_offerta {
+	font-size: 0.875em; 
+	text-align: justify; 
+	margin-top: 0.5em; 
+	margin-bottom: 0.5em;
+}
+
+.anteprima_acquisto_scheda_offerta {
+	margin-bottom: -1.425em;
+	margin-top: -1.425em;
+	background-color: rgb(32, 32, 32);
+	border: 0.1em solid rgb(119, 119, 119);
+	border-radius: 0.25em;
+}
+
+.container_anteprima_acquisto_scheda_offerta {
+	margin-left: 0.75em; 
+	margin-right: 0.75em; 
+	margin-top: 1em; 
+	margin-bottom: 1em;
+}
+
+.contenuto_anteprima_acquisto_scheda_offerta {
+	display: flex; 
+	flex-direction: column; 
+	width: 100%
+}
+
+.elemento_anteprima_acquisto_scheda_offerta:not(:first-child), .elemento_pannello_recensioni_scheda_offerta:not(:first-child), .elemento_pannello_discussioni_scheda_offerta:not(:first-child), .container_discussione {
+	margin-top: 0.875em;
+}
+
+.quantitativo {
+	display: flex;
+	justify-content: space-bewteen;
+	align-items: center;
+	width: 100%;
+}
+
+.quantitativo span {
+	width: 50%;
+}
+
+.anteprima_acquisto_scheda_offerta select {
+	font-size: 1em;
+	width: 100%;
+	outline: none;
+	border: none;
+	background: transparent;
+	border: 0.1em solid rgb(119,119,119);
+	border-radius: 0.25em;
+	color: rgb(255,255,255);
+}
+
+.anteprima_acquisto_scheda_offerta select {
+	cursor: pointer;
+}
+
+.anteprima_acquisto_scheda_offerta select option {
+	background-color: rgb(32, 32, 32);
+}
+
+.pulsante_acquisto_scheda_offerta, .pulsante_recensioni_scheda_offerta, .pulsante_violazione_scheda_offerta, .pulsante_interazione_scheda_offerta {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding: 0.875em;
+	margin-top: 1.25em;
+	border-radius: 1.5em;
+	color: rgb(255,255,255);
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background-color: rgb(217,118,64);
+	border: 0.1em solid rgb(247,148,94);
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.pulsante_recensioni_scheda_offerta, .pulsante_violazione_scheda_offerta, .pulsante_interazione_scheda_offerta {
+	text-decoration: none;
+}
+
+.elemento_anteprima_acquisto_scheda_offerta:last-child {
+	padding-bottom: 0.25em;
+}
+
+.container_recensioni_scheda_offerta, .container_discussioni_scheda_offerta {
+	display: flex; 
+	justify-content: space-between;
+	align-items: flex-start; 
+	width: 100%;
+	padding-top: 1em;
+	border-top: 0.1em solid rgb(119, 119, 119);
+}
+
+.container_recensioni_scheda_offerta {
+	padding-bottom: 2.425%;
+	margin-bottom: 1.5em;
+}
+
+.container_discussioni_scheda_offerta {
+	padding-bottom: 0.5%;
+	margin-bottom: 1.25em;
+}
+
+.elemento_container_recensioni_scheda_offerta:first-child {
+	width: 35%;
+	margin-right: 0.9475em;
+}
+
+.pannello_recensioni_scheda_offerta, .pannello_discussioni_scheda_offerta {
+	border-top: 0.1em solid rgb(119,119,119); 
+	border-bottom: 0.1em solid rgb(119,119,119);
+	padding-bottom: 0.25em;
+}
+
+.container_pannello_recensioni_scheda_offerta, .container_pannello_discussioni_scheda_offerta {
+	display: flex; 
+	flex-direction: column;
+	margin-left: 0.75em; 
+	margin-right: 0.75em; 
+	margin-top: 1em; 
+	margin-bottom: 1em;
+}
+
+.elemento_container_recensioni_scheda_offerta:last-child {
+	width: 65%;
+	margin-left: 0.9475em;
+}
+
+.elemento_container_discussioni_scheda_offerta, .container_discussione {
+	width: 100%;
+}
+
+.pulsante_recensioni_scheda_offerta, .pulsante_violazione_scheda_offerta {
+	background-color: rgb(32,32,32);
+	border: 0.1em solid rgb(119,119,119);
+}
+
+.pulsante_acquisto_scheda_offerta:hover, .pulsante_interazione_scheda_offerta:hover {
+	background-color: rgb(247,148,94);
+}
+
+.pulsante_recensioni_scheda_offerta:hover, .pulsante_violazione_scheda_offerta:hover {
+	background-color: rgb(119,119,119);
+}
+
+.titolo_reputazione{
+	cursor: pointer; 
+	font-weight: bold;
+}
+
+.titolo_reputazione:hover{
+	text-decoration: underline;
+}
+
+.anteprima_utente {
+	display: flex;
+	align-items: center;
+	font-size: 0.875em;
+}
+
+.immagine{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 0.3125em;
+	width: 2.125em;
+	height: 2.125em; 
+	background-color: rgb(255, 255, 255);
+	border: 0.1em solid rgb(255, 255, 255); 
+	border-radius: 50%;
+}
+
+.immagine img{
+	width: 55%;
+	height: 55%;
+}
+
+.pulsante_violazione_scheda_offerta, .pulsante_interazione_scheda_offerta { 
+	margin-top: 0em; 
+	margin-right: 1.25em; 
+	padding-left: 1.25em; 
+	padding-right: 1.25em;
+}
+
+.container_discussione {
+	margin-bottom: 0em; 
+	padding: 1.5em 0em; 
+	border-top: 0.1em solid rgb(119, 119, 119); 
+	border-bottom: 0.1em solid rgb(119, 119, 119); 
+}
+
+.container_intervento {
+	margin-bottom: 0.875em; 
+	padding-top: 0.875em;
+	padding-right: 1.5em; 
+	padding-left: 1.5em;
+	padding-bottom: 1.125em;
+	border: 0.1em solid rgb(119, 119, 119);
+	border-radius: 0.25em;
+}
+
+.container_intervento:first-child {
+	margin-top: 0.875em;
+}
+
+.contributo_moderato, .discussione_risolta, .acquisto_verificato {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	border-radius: 0.25em; 
+	margin-top: 0em; 
+	margin-left: 0.5em; 
+	padding-left: 0.5em; 
+	padding-right: 0.5em;
+	color: rgb(119, 119, 119);
+	outline: none;
+	font-weight: bold;
+	cursor: pointer;
+	border: 0.1em solid rgb(119, 119, 119);
+}
+
+.discussione_risolta, .acquisto_verificato {
+	color: rgb(217, 118, 64);
+	border: 0.1em solid rgb(217, 118, 64);
+}
+
+.acquisto_verificato {
+	margin-bottom: 0.0625em;
+	width: max-content;
+}

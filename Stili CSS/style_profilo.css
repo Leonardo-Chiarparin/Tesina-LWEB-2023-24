@@ -1,0 +1,226 @@
+.profilo {
+	padding-top: 1em;
+	padding-bottom: 5em;
+	background-color: rgb(56, 58, 58);
+}
+
+.container_profilo {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.intestazione_profilo {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 0.25em;
+	margin-bottom: 1.5em; 
+	border-bottom: 0.1em solid rgb(119, 119, 119);
+}
+
+.container_intestazione_profilo {
+	display: flex;
+	align-items: center;
+}
+
+.icona_profilo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 2em;
+	height: 2em;
+	margin-right: 0.25em;
+	background-color: rgb(255, 255, 255);
+	border-radius: 50%;
+}
+
+.icona_profilo img {
+	width: 55%;
+	height: 55%;
+}
+
+.container_intestazione_profilo h2 {
+	font-size: 1.95em;
+	line-height: 1.2;
+	padding-left: 0.25em;
+}
+
+.corpo_profilo {
+	border: 0.1em solid rgb(119, 119, 119);
+	border-radius: 0.25em;
+	margin-bottom: 1.5em;
+	padding: 0.75em;
+	box-shadow: 0em 0.5em 1em rgb(32, 32, 32);
+}
+
+.container_corpo_profilo {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+	margin: 2.5%;
+}
+
+.intestazione_sezione {
+	margin-bottom: 1.5em;
+	padding-bottom:0.5em;
+	width:100%;
+	border-bottom: 0.1em solid rgb(119,119,119);
+}
+
+.container_intestazione_sezione {
+	display:flex;
+	align-items: center;
+	font-weight: bold;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
+
+.container_intestazione_sezione span {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+
+.container_intestazione_sezione span strong{
+	padding-left: 0.25em;
+	cursor: pointer;
+}
+
+.campo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	border-bottom: 0.1em solid rgb(119, 119, 119);
+	padding-bottom: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+.campo:first-child {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+.container_campo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.oggetto_campo {
+	width: 100%;
+}
+
+.campo:not(:first-child) .container_campo .oggetto_campo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container_oggetto_campo {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+.intestazione_oggetto_campo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.container_intestazione_oggetto_campo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5.5em;
+	height: 5.5em;	
+	background-color: rgb(255, 255, 255);
+	border-radius: 50%;
+}
+
+.container_intestazione_oggetto_campo img {
+	height: 3.75em;
+	margin-top: -0.25em;
+}
+
+.corpo_oggetto_campo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 1em;
+}
+
+.corpo_oggetto_campo span {
+	padding-bottom: 0%;
+}
+
+.oggetto_campo p:first-child {
+	width: 35%;
+	font-weight: bold;
+	margin-left: 0.5em;
+}
+
+.oggetto_campo p:last-child {
+	width: 65%;
+	margin-right: 1.5em;
+}
+
+.oggetto_campo p:last-child input[type="text"], .oggetto_campo p:last-child input[type="password"] {
+	width: 100%;
+	font-size: 1em;
+	outline: none;
+	border: none;
+	padding: 0.5em;
+	background: transparent;
+	border-bottom: 0.1em solid rgb(119,119,119);
+	color: rgb(255,255,255);
+}
+
+.pulsante {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 1.5%;
+	margin-bottom: -1.5%;
+}
+
+.container_pulsante {
+	width: 9.35em;
+	font-size: 1em;
+	height: 3.15em;
+	border-radius: 1.5em;
+	color: rgb(255,255,255);
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background-color: rgb(217,118,64);
+	border: 0.1em solid rgb(247,148,94);
+	text-transform: uppercase;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+.container_pulsante:hover{
+	background-color: rgb(247,148,94);
+}
+
+.back {
+	background-color: rgb(119, 119, 119);
+	border-color: rgb(149, 149, 149);
+}
+
+.back:hover {
+	background-color: rgb(149, 149, 149);
+}

@@ -3,6 +3,9 @@
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+	position: absolute;
+	top: 0%;
+	z-index: 3;
 }
 
 .container_intestazione {
@@ -78,10 +81,6 @@
     display: flex;
 	height: 2.5em;
 	align-items: center;
-	border-width: 0.1em;
-	border-style: solid;
-	border-color: rgb(46, 48, 48);
-	border-radius: 0.25em;
 	overflow: hidden;
 }
 
@@ -98,18 +97,17 @@
 	padding-left: 1em;
 	padding-right: 1em;
 	background-color: rgb(56, 58, 58);
+	border-radius: 0.25em;
+	border-top-right-radius: 0%;
+	border-bottom-right-radius: 0%;
 }
 
 .container_input input[type="text"] {
 	width: 30em;
 	height: 100%;
-	color: rgb(255, 255, 255);
 	outline: none;
-	border-top-right-radius: 0%;
-	border-bottom-right-radius: 0%;
-	border-top-left-radius: 0%;
-	border-bottom-left-radius: 0%;
-	border: 0.1em solid rgb(46, 48, 48);
+	color: rgb(255, 255, 255);
+	border: none;
 	background-color: rgb(32, 32, 32);
 	padding-left: 1em;
 	padding-right: 1em;
@@ -122,6 +120,9 @@
 	width: 3em;
 	height: 100%;
 	background-color: rgb(237, 118, 64);
+	border-radius: 0.25em;
+	border-top-left-radius: 0%;
+	border-bottom-left-radius: 0%;
 }
 
 .pulsante_ricerca button {
@@ -153,6 +154,7 @@
     justify-content: center;
     align-items: center;
     height: 1.5em;
+	padding-left: 2.5em;
 }
 
 .menu_utente li {
@@ -187,24 +189,31 @@
 }
 
 .giu {
-	border-top: 0.3em solid;
-    border-right: 0.3em solid rgb(0, 0, 0, 0);
+	border-top: 0.3em solid rgb(255, 255, 255);
+    border-right: 0.3em solid rgba(255, 255, 255, 0);
     border-bottom: 0em;
-    border-left: 0.3em solid rgb(0, 0, 0, 0);
+    border-left: 0.3em solid rgba(255, 255, 255, 0);
 }
 
 .su {
 	border-top: 0em;
-    border-right: 0.3em solid rgb(0, 0, 0, 0);
-    border-bottom: 0.3em solid;
-    border-left: 0.3em solid rgb(0, 0, 0, 0);
+    border-right: 0.3em solid rgba(255, 255, 255, 0);
+    border-bottom: 0.3em solid rgb(255, 255, 255);
+    border-left: 0.3em solid rgba(255, 255, 255, 0);
 }
 
 .destra{
-	border-top: 0.3em solid rgb(0, 0, 0, 0);
+	border-top: 0.3em solid rgba(255, 255, 255, 0);
     border-right: 0em;
-    border-bottom: 0.3em solid rgb(0, 0, 0, 0);
-    border-left: 0.3em solid;
+    border-bottom: 0.3em solid rgba(255, 255, 255, 0);
+    border-left: 0.3em solid rgb(255, 255, 255);
+}
+
+.sinistra{
+	border-top: 0.3em solid rgba(255, 255, 255, 0);
+    border-right: 0.3em solid rgb(255, 255, 255);
+    border-bottom: 0.3em solid rgba(255, 255, 255, 0);
+    border-left: 0em;
 }
 
 .icona {
@@ -223,13 +232,14 @@
 .menu_tendina {
     position: absolute;
 	top: 0%;
+	color: rgb(255, 255, 255);
     background-color: rgb(32, 32, 32);
 	border-top-right-radius: 0.25em;
 	border-top-left-radius: 0.25em;
 	border-bottom-right-radius: 0.25em;
 	border-bottom-left-radius: 0.25em;
 	border: 0.1em solid rgb(119, 119, 119);
-	z-index: 2;
+	z-index: 3;
 }
 
 .utente, .carrello {

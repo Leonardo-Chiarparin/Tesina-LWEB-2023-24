@@ -56,6 +56,7 @@
 	border-radius: 0.25em;
 	margin-bottom: 1.5em;
 	width: 100%;
+	box-shadow: 0em 0.5em 1em rgb(32, 32, 32);
 }
 
 .riga_elenco_funzioni{
@@ -73,7 +74,7 @@
 	padding-right: 0.720%;
 }
 
-.cella_funzione{
+.cella_funzione, .cella_funzione_richieste, .cella_funzione_segnalazioni {
 	width: 30.3333%;
 	height: 8.375em;
 	border: 0.1em solid rgb(119,119,119);
@@ -83,8 +84,12 @@
 	box-shadow: 0em 0.5em 1em rgb(32,32,32);
 }
 
-.cella_funzione:hover {
+.cella_funzione:hover, .cella_funzione_richieste:hover, .cella_funzione_segnalazioni:hover {
 	background-color: rgb(119, 119, 119);
+}
+
+.cella_funzione_richieste, .cella_funzione_segnalazioni {
+	background-color: rgb(32, 32, 32);
 }
 
 .container_cella_funzione{

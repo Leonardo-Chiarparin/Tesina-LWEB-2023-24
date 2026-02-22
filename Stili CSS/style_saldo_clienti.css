@@ -1,0 +1,247 @@
+.form {
+	padding-top: 1em;
+	padding-bottom: 5em;
+	background-color: rgb(56, 58, 58);
+}
+
+.container_form {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.intestazione_form {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 0.25em;
+	margin-bottom: 1.5em; 
+	border-bottom: 0.1em solid rgb(119, 119, 119);
+}
+
+.container_intestazione_form {
+	display: flex;
+	align-items: center;
+}
+
+.icona_form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 2em;
+	height: 2em;
+	margin-right: 0.25em;
+	background-color: rgb(255, 255, 255);
+	border-radius: 50%;
+}
+
+.icona_form img {
+	width: 55%;
+	height: 55%;
+}
+
+.container_intestazione_form h2 {
+	font-size: 1.95em;
+	line-height: 1.2;
+	padding-left: 0.25em;
+}
+
+.corpo_form {
+	border: 0.1em solid rgb(119, 119, 119);
+	border-radius: 0.25em;
+	margin-bottom: 1.5em;
+	padding: 0.75em;
+	box-shadow: 0em 0.5em 1em rgb(32, 32, 32);
+}
+
+.container_corpo_form {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+	margin: 2.5%;
+}
+
+.intestazione_sezione {
+	margin-bottom: 1.5em;
+	padding-bottom:0.5em;
+	width:100%;
+	border-bottom: 0.1em solid rgb(119,119,119);
+}
+
+.container_intestazione_sezione {
+	display:flex;
+	align-items: center;
+	font-weight: bold;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
+
+.elenco_campi {
+	width:100%;
+}
+
+.container_elenco_campi {
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 0.5em; 
+	margin-left: 0.5em;
+}
+
+.campo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 2.5%;
+}
+
+.container_campo {
+	width: 100%;
+}
+
+.credito {
+	background-color: rgb(32, 32, 32);
+	border: 0.1em solid rgb(119, 119, 119);
+	border-radius: 0.5em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.container_credito {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.container_credito h3 {
+	font-size: 1.25em;
+	color: rgb(255, 255, 255);
+	margin-left:0.25em;
+	margin-right:0.25em;
+}
+
+.container_credito h3:last-child {
+	color: rgb(217, 118, 64);
+}
+
+.pulsante {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.elenco_campi:first-child .container_elenco_campi .campo:last-child .container_campo .pulsante{
+	justify-content:right;
+}
+
+.container_pulsante {
+	font-size: 0.875em;
+	height: 3.15em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border-radius: 1.5em;
+	color: rgb(255,255,255);
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background-color: rgb(217,118,64);
+	border: 0.1em solid rgb(247,148,94);
+	text-transform: uppercase;
+}
+
+.container_pulsante:hover{
+	background-color: rgb(247,148,94);
+}
+
+.container_campo table {
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0%;
+	margin-bottom: 1em;
+}
+
+thead {
+	background-color: rgb(32, 32, 32);
+}
+
+tr {
+	width: 100%;
+}
+
+tbody tr{
+	background-color: rgb(46, 46, 46);
+}
+
+tr:not(:last-child) {
+	border-bottom: 0.1em solid rgb(119, 119, 119);
+}
+
+tr:last-child td:first-child{
+	border-bottom-left-radius: 0.5em;
+}
+
+tr:last-child td:last-child{
+	border-bottom-right-radius: 0.5em;
+}
+
+th {
+	justify-content: center;
+	align-items: center;
+	border-bottom: 0.1em solid rgb(119, 119, 119);
+}
+
+th:first-child {
+	border-top-left-radius: 0.5em;
+	border-right: 0.1em solid rgb(119, 119, 119);
+}
+
+th:not(:first-child):not(:last-child) {
+	border-left: 0.1em solid rgb(119, 119, 119);
+	border-right: 0.1em solid rgb(119, 119, 119);
+}
+
+th:last-child {
+  border-top-right-radius: 0.5em; 
+  border-left: 0.1em solid rgb(119, 119, 119);
+}
+
+td:first-child {
+	border-right: 0.1em solid rgb(119, 119, 119);
+}
+
+td:not(:first-child):not(:last-child) {
+	border-left: 0.1em solid rgb(119, 119, 119);
+	border-right: 0.1em solid rgb(119, 119, 119);
+}
+
+td:last-child { 
+  border-left: 0.1em solid rgb(119, 119, 119);
+}
+
+.oggetto_td {
+	text-align: left;
+	padding: 1.25em;
+}
+
+.container_campo span {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	font-weight: bold;
+}
+
+.back {
+	background-color: rgb(119, 119, 119);
+	border-color: rgb(149, 149, 149);
+}
+
+.back:hover {
+	background-color: rgb(149, 149, 149);
+}

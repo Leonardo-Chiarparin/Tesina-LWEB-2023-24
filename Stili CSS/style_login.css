@@ -57,10 +57,12 @@
 	margin-bottom: 1.5em;
 	width: 100%;
 	padding: 0.75em;
+	box-shadow: 0em 0.5em 1em rgb(32, 32, 32);
 }
 
 .riga_form {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	margin-top: 2.5em;
@@ -70,6 +72,16 @@
 
 .riga_form:first-child {
 	margin-bottom: 2.5em;
+}
+
+.riga_form h3 {
+	width: 100%;
+	font-size: 1em;
+	color: rgb(255, 255, 255);
+	padding-bottom: 0.25em;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-transform: uppercase;
 }
 
 .container_riga_form {
@@ -85,8 +97,10 @@
 
 .container_intestazione_riga_form {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	height: 100%;
+	padding: 1.25em;
 	background-color: rgb(119, 119, 119);
 	border-right: 0.1em solid rgb(119, 119, 119);
 	cursor: pointer;
@@ -95,20 +109,6 @@
 .container_intestazione_riga_form img {
 	width: 1.25em;
 	height: 1.25em;
-	padding-top: 1em;
-	padding-left: 1em;
-	padding-right: 0.5em;
-	padding-bottom: 1em;
-}
-
-.container_intestazione_riga_form h3 {
-	width: 5.75em;
-	font-size: 1em;
-	color: rgb(255, 255, 255);
-	padding-top: 1em;
-	padding-left: 0.5em;
-	padding-right: 1em;
-	padding-bottom: 1em;
 }
 
 .container_riga_form input[type="text"], .container_riga_form input[type="password"] {
@@ -133,7 +133,6 @@
 	align-items: center;
 	margin-left: 10em;
 	margin-right: 10em;
-	margin-bottom: 0.5em;
 }
 
 .container_pulsante_form, .container_footer_form {
@@ -171,11 +170,10 @@
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	padding-top:0.5em;
-	margin-bottom:2.5em;
+	padding-top: 1em;
+	margin-bottom: 2.5em;
 }
 .container_riga_form p a, .container_footer_form p a{
-	font-size: 1.15em;
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 }

@@ -1,0 +1,547 @@
+.form {
+	padding-top: 1em;
+	padding-bottom: 5em;
+	background-color: rgb(56, 58, 58);
+}
+
+.container_form {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.intestazione_form {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 0.25em;
+	margin-bottom: 1.5em; 
+	border-bottom: 0.1em solid rgb(119, 119, 119);
+}
+
+.container_intestazione_form {
+	display: flex;
+	align-items: center;
+}
+
+.icona_form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 2em;
+	height: 2em;
+	margin-right: 0.25em;
+	background-color: rgb(255, 255, 255);
+	border-radius: 50%;
+}
+
+.icona_form img {
+	width: 55%;
+	height: 55%;
+}
+
+.container_intestazione_form h2 {
+	font-size: 1.95em;
+	line-height: 1.2;
+	padding-left: 0.25em;
+}
+
+.corpo_form {
+	border: 0.1em solid rgb(119, 119, 119);
+	border-radius: 0.25em;
+	margin-bottom: 1.5em;
+	padding: 0.75em;
+	box-shadow: 0em 0.5em 1em rgb(32, 32, 32);
+}
+
+.container_corpo_form {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+	margin: 2.5%;
+}
+
+.intestazione_sezione {
+	margin-bottom: 1.5em;
+	padding-bottom:0.5em;
+	width:100%;
+	border-bottom: 0.1em solid rgb(119,119,119);
+}
+
+.container_intestazione_sezione {
+	display:flex;
+	align-items: center;
+	font-weight: bold;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
+
+.container_intestazione_sezione span {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.container_intestazione_sezione span strong, th strong, td strong{
+	padding-left: 0.25em;
+	cursor: pointer;
+}
+
+.elenco_campi {
+	width:100%;
+}
+
+.container_elenco_campi {
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 2.5%;
+	margin-bottom:0.5em;
+	border-bottom: 0.1em solid rgb(119,119,119);
+}
+
+.campo, .campo_riferimenti_temporali, .campo_descrizione {
+	display: flex;
+	width: 100%;
+	margin-bottom: 2.5%;
+}
+
+.campo, .campo_riferimenti_temporali {
+	justify-content: center;
+	align-items: center;
+}
+
+.campo_descrizione {
+	flex-direction: column;
+	margin-top: 0.875%;
+}
+
+.campo_descrizione p:first-child {
+	font-weight: bold;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.campo_descrizione p:last-child {
+	margin-top: 1em;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
+
+.campo p:first-child {
+	width: 35%;
+	font-weight: bold;
+	margin-left: 0.5em;
+}
+
+.campo p:last-child {
+	width: 65%;
+	margin-right: 1.5em;
+}
+
+.campo p:last-child input[type="text"], .campo p:last-child input[type="password"], .campo p:last-child select {
+	font-size: 1em;
+	width: 100%;
+	outline: none;
+	border: none;
+	padding: 0.5em;
+	background: transparent;
+	border-bottom: 0.1em solid rgb(119,119,119);
+	color: rgb(255,255,255);
+}
+
+.campo p:last-child input[type="file"] {
+	font-size: 1em;
+	width: 100%;
+	outline: none;
+	padding: 0.5em;
+	text-align: center;
+	background: transparent;
+	color: rgb(255,255,255);
+	border: 0.1em solid rgb(119, 119, 119);
+	border-radius: 0.25em;
+}
+
+.campo p:last-child input[type="file"]::file-selector-button {
+	padding: 0.5em 0.75em;
+	border-radius: 1.5em;
+	font-size: 0.875em;
+	color: rgb(255,255,255);
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background-color: rgb(217,118,64);
+	border: 0.1em solid rgb(247,148,94);
+	text-transform: uppercase;
+	margin-left: 0.5em;
+	margin-right: 0.875em;
+}
+
+.campo p:last-child input[type="file"]::file-selector-button:hover {
+	background-color: rgb(247,148,94);
+}
+
+.campo p:last-child input[type="file"]:hover {
+	background-color: rgb(119, 119, 119);
+}
+
+.campo p:last-child select {
+	cursor: pointer;
+}
+
+.campo p:last-child select option {
+	background-color: rgb(32, 32, 32);
+}
+
+.campo_descrizione p textarea {
+	width: 100%;
+	height: 15.75em;
+	padding: 0.75em 0.875em;
+	box-sizing: border-box;
+	background-color: transparent;
+	text-align: justify;
+	outline: none;
+	color: rgb(255, 255, 255);
+	resize: vertical;
+	border: 0.1em solid rgb(119, 119, 119);
+	border-radius: 0.25em;
+}
+
+.campo_radio p {
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	margin: 0.5em;
+}
+
+.campo_radio p:first-child {
+	margin-left: 0.5em;
+}
+
+.campo_radio p:last-child {
+	font-weight: bold;
+	margin-right: 1.5em;
+}
+
+.campo p input[type="radio"], .campo p input[type="checkbox"], .campo_descrizione p input[type="radio"], .campo_descrizione p input[type="checkbox"] {
+	width: 1.5em;
+	height: 1.5em;
+	vertical-align: middle;
+	accent-color: rgb(217, 118, 64);
+	text-align: center;
+	margin-right: 0.5em;
+}
+
+.nota {
+	font-size: 0.75em; 
+	color: rgb(119, 119, 119); 
+	width: 100%; 
+	padding-left: 1.5em;
+	margin-bottom: 2.5%;
+}
+
+.nota strong {
+	text-decoration: underline;
+}
+
+.elenco_campi .container_elenco_campi .nota:last-child {
+	margin-bottom: 0%;
+}
+
+.pulsante, .pulsante_td {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 1.5%;
+	margin-bottom: -1.5%;
+}
+
+.container_pulsante, .container_pulsante_td {
+	width: 9.35em;
+	font-size: 1em;
+	height: 3.15em;
+	border-radius: 1.5em;
+	color: rgb(255,255,255);
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background-color: rgb(217,118,64);
+	border: 0.1em solid rgb(247,148,94);
+	text-transform: uppercase;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+.container_pulsante:hover, .container_pulsante_td:hover{
+	background-color: rgb(247,148,94);
+}
+
+.back {
+	background-color: rgb(119, 119, 119);
+	border-color: rgb(149, 149, 149);
+}
+
+.back:hover {
+	background-color: rgb(149, 149, 149);
+}
+
+.container_corpo_form table {
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+thead {
+	background-color: rgb(32, 32, 32);
+}
+
+tr {
+	width: 100%;
+}
+
+tbody tr{
+	background-color: rgb(46, 46, 46);
+}
+
+tr:not(:last-child) {
+	border-bottom: 0.1em solid rgb(119, 119, 119);
+}
+
+tr:last-child td:first-child{
+	border-bottom-left-radius: 0.5em;
+}
+
+tr:last-child td:last-child{
+	border-bottom-right-radius: 0.5em;
+}
+
+th {
+	justify-content: center;
+	align-items: center;
+	border-bottom: 0.1em solid rgb(119, 119, 119);
+	white-space: nowrap;
+}
+
+th:first-child {
+	border-top-left-radius: 0.5em;
+	border-right: 0.1em solid rgb(119, 119, 119);
+}
+
+th:not(:first-child):not(:last-child) {
+	border-left: 0.1em solid rgb(119, 119, 119);
+	border-right: 0.1em solid rgb(119, 119, 119);
+}
+
+th:last-child {
+	border-top-right-radius: 0.5em; 
+	border-left: 0.1em solid rgb(119, 119, 119);
+}
+
+td:first-child {
+	border-right: 0.1em solid rgb(119, 119, 119);
+}
+
+td:not(:first-child):not(:last-child) {
+	border-left: 0.1em solid rgb(119, 119, 119);
+	border-right: 0.1em solid rgb(119, 119, 119);
+}
+
+td:last-child { 
+	border-left: 0.1em solid rgb(119, 119, 119);
+}
+
+.oggetto_td {
+	text-align: left;
+	padding: 1.25em;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.oggetto_td:last-child {
+	text-align: center;
+}
+
+.pulsante_td {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	text-decoration: none;
+}
+
+.container_pulsante_td {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: auto;
+	border-radius: 50%;
+	margin-left: 0em;
+	margin-right: 0em;
+}
+
+.container_pulsante_td:first-child {
+	margin-right: 0.175em;
+}
+
+.container_pulsante_td:last-child {
+	margin-left: 0.175em;
+}
+
+.container_pulsante_td img {
+	width: 0.875em;
+	height: 0.875em;
+	padding: 0.625em;
+}
+
+.nessun_elemento {
+	width: 100%;
+	font-size: 1.25em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	font-weight: bold;
+}
+
+.container_campo {
+	width: 100%;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
+
+.campo_riferimenti_temporali {
+	margin-bottom: 2.5%;
+}
+
+.container_campo_riferimenti_temporali {
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+	width: 100%;
+	margin-left: 0.5em;
+	margin-right: 0.5em;	
+}
+
+.riferimento_temporale {
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+	width: 50%;
+	background-color: rgb(255,255,255); 
+	color: rgb(217,118,64); 
+	border-color: transparent;  
+	border: 0.1em solid rgb(255, 255, 255);
+	font-size: 1em;
+	height: 3.15em;
+	border-radius: 1.5em;
+	font-weight: bold;
+	outline: none;
+}
+
+.riferimento_temporale:first-child {
+	margin-right: 0.25em;
+	border-top-right-radius: 0em; 
+	border-bottom-right-radius: 0em; 
+}
+
+.riferimento_temporale:last-child {
+	margin-left: 0.25em;
+	border-top-left-radius: 0em; 
+	border-bottom-left-radius: 0em; 
+}
+
+.dettagli_ordine, .contenuto_ordine {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.container_dettagli_ordine, .container_contenuto_ordine {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.875em;
+	margin-bottom: 0.875em;
+}
+
+.container_contenuto_ordine {
+	flex-direction: column;
+}
+
+.intestazione_dettagli_ordine {
+	padding-right: 1.25em;
+	padding-left: 1.25em;
+	padding-top: 1.25em;
+	padding-bottom: 1.25em;
+	width: 33.3333%;
+	height: 9.25em;
+	background-color: rgb(32, 32, 32);
+	border: 0.1em solid rgb(119, 119, 119);
+	border-radius: 0.5em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+    overflow: hidden;
+}
+
+.intestazione_dettagli_ordine:first-child {
+	margin-left: 0em;
+}
+
+.intestazione_dettagli_ordine:last-child {
+	margin-right: 0em;
+}
+
+.intestazione_dettagli_ordine h3, .corpo_dettagli_ordine {
+	margin-bottom: 0.5em;
+}
+
+.corpo_dettagli_ordine {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.container_corpo_dettagli_ordine {
+	list-style: none;
+}
+
+.container_corpo_dettagli_ordine li:not(:last-child) {
+	margin-bottom: 0.125em;
+}
+
+.intestazione_dettagli_ordine:not(:first-child) .corpo_dettagli_ordine .container_corpo_dettagli_ordine li {
+	display: flex;
+	justify-content: space-between;
+} 
+
+.offerta {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.offerta:hover {
+	color: rgb(217, 118, 64);
+	text-decoration: underline;
+}
+
+.container_pulsante_domicilio {
+	font-size: 0.875em;
+	padding: 0.675em 1em;
+	border-radius: 1.5em;
+	color: rgb(255,255,255);
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background-color: rgb(217,118,64);
+	border: 0.1em solid rgb(247,148,94);
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.container_pulsante_domicilio:hover{
+	background-color: rgb(247,148,94);
+}
