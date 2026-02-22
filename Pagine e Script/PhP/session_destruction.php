@@ -1,0 +1,6 @@
+<?php
+	// LO SCRIPT PERMETTE LA RIMOZIONE DI TUTTE LE SESSIONI RIMASTE APERTE A SEGUITO DELLA DISCONNESSIONE DELL'UTENTE 
+    session_start();
+    $_SESSION = array();
+    session_destroy();
+?>
