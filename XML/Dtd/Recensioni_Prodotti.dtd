@@ -7,8 +7,9 @@
 <!ELEMENT recensione (titolo, testo, valutazione)>
 <!ATTLIST recensione
 			id CDATA #REQUIRED
-			idCliente CDATA #REQUIRED
-			dataPubblicazione CDATA #REQUIRED>
+			idUtente CDATA #REQUIRED
+			dataPubblicazione CDATA #REQUIRED
+			moderata (No|Si) "No">
 
 <!ELEMENT titolo (#PCDATA)>
 

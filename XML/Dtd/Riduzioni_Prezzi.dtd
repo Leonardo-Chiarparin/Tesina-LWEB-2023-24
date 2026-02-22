@@ -18,7 +18,6 @@
 <!ATTLIST fedeltaElite 
 			idTariffaFedeltaElite CDATA #REQUIRED
 			creditiSpesi CDATA #REQUIRED
-			superamenti CDATA #REQUIRED
 			fruibile CDATA #REQUIRED
 			esercitabile CDATA #REQUIRED>
 			

@@ -2,8 +2,9 @@
 
 <!ELEMENT categorie (categoria+)>
 			
-<!ELEMENT categoria (denominazione)>
+<!ELEMENT categoria (denominazione, immagine)>
 <!ATTLIST categoria 
 			id CDATA #REQUIRED>
 			
 <!ELEMENT denominazione (#PCDATA)>
+<!ELEMENT immagine (#PCDATA)>

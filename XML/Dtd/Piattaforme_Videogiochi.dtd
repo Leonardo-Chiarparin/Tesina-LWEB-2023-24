@@ -2,8 +2,9 @@
 
 <!ELEMENT piattaforme (piattaforma+)>
 			
-<!ELEMENT piattaforma (denominazione)>
+<!ELEMENT piattaforma (denominazione, immagine)>
 <!ATTLIST piattaforma 
 			id CDATA #REQUIRED>
 			
 <!ELEMENT denominazione (#PCDATA)>
+<!ELEMENT immagine (#PCDATA)>

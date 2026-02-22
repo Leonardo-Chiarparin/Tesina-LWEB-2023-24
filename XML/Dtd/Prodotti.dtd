@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!ELEMENT prodotti (prodotto*)>
+<!ATTLIST prodotti 
+			ultimoId CDATA #REQUIRED>
 
 <!ELEMENT prodotto (nome, tipologia, descrizione, immagine, prezzoListino, annoUscita, recensioni, discussioni)>
 <!ATTLIST prodotto 
@@ -17,7 +19,7 @@
 <!ATTLIST categoria
 			idCategoria CDATA #REQUIRED>
 
-<!ELEMENT autori (autore+)>
+<!ELEMENT autori (autore, autore?)>
 <!ELEMENT autore (nome, cognome?)>
 <!ELEMENT cognome (#PCDATA)>
 
