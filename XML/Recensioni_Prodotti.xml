@@ -1,19 +1,25 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE recensioni SYSTEM "Dtd/Recensioni_Prodotti.dtd">
-
-<recensioni ultimoId="2">
-	<recensione id="1" idCliente="4" dataPubblicazione="2024-06-01">
-		<titolo>Bloodborne PS4</titolo>
-		<testo>Bloodborne è un'esperienza di gioco impeccabile. L'ambientazione gotica e il gameplay frenetico creano una tensione costante. La sfida elevata rende ogni vittoria gratificante. Il design dei nemici e dei livelli è stupefacente. Un capolavoro assoluto.</testo>
-		<valutazione>
-			<perVideogioco sceneggiatura="5" tecnica="5" giocabilita="5"></perVideogioco>
-		</valutazione>
-	</recensione>
-	<recensione id="2" idCliente="6" dataPubblicazione="2024-06-07">
-		<titolo>Per non voltarsi dall'altra parte</titolo>
-		<testo>Non è la prima volta che leggo della Corea del Nord eppure questo libro è riuscito davvero a stupirmi. Mostra uno spaccato di quell'orribile realtà quotidiana che sono i campi di lavoro nordcoreani. Mostra qualcosa di simile e contemporaneamente diverso e peggiore rispetto ai gulag e ai campi di concentramento; qualcosa che da 50 anni ad oggi non ha fine! Oltre alla tragica esperienza di Shin però questo libro è anche un utile strumento per chiunque voglia farsi un'idea di quello che è la Corea del Nord, la sua società, la sua economia e la sua politica. Ci tengo anche a fare presente che Harden ha dotato ogni capitolo di un buon apparato di note che può indurre chi è interessato ad ulteriori approfondimenti (quasi tutte le fonti sono in inglese e molte sono reperibili gratuitamente in rete tramite le organizzazioni che si occupano della Corea del Nord).</testo>
-		<valutazione>
-			<perLibro trama="5" caratterizzazionePersonaggi="4" ambientazione="5"></perLibro>
-		</valutazione>
-	</recensione>
+<recensioni ultimoId="3">
+  <recensione id="1" idUtente="2" dataPubblicazione="2024-06-01" moderata="No">
+    <titolo>Miglior spokon manga di sempre</titolo>
+    <testo>C'è poco da dire, esistono due tipi di persone: chi ha letto Slam Dunk e chi dovrebbe leggerlo! Sicuramente il miglior spokon manga di tutti i tempi (spokon manga=manga sportivo). Slam Dunk, ci racconta la vita da liceale di Hanamichi Sakuragi, un teppistello che s’iscrive al primo anno della scuola superiore Shohoku. Hanamichi passa le sue giornate tra risse e abbordaggi malriusciti delle ragazze, motivo che lo porta ad essere continuamente deriso dai suoi compagni. Un giorno, una bella ragazza di nome Haruko Akagi, sorella di Takenori, capitano della squadra di basket del liceo Shohoku, noterà Hanamichi, o meglio il suo fisico che, a suo parere, è perfetto per un giocatore di pallacanestro. La nostra matricola non resiste alle moine senza malizia di Haruko e per conquistarla, decide di proporsi alla squadra. Hanamichi non ha mai giocato, non conosce nemmeno i fondamentali e questo lo costringerà ad allenarsi duramente e a non poter prendere parte nemmeno alle partite di allenamento. In cerca di una motivazione che lo spronasse a dare il meglio di sé, e che sembrava non essere nascosta da nessuna parte, il nostro protagonista la troverà inaspettatamente nel nuovo arrivato Kaede Rukawa, stella nascente del basket, idolatrato dalle ragazze. Questa nuova edizione presenta delle immagini extra alla fine dei capitoli ed una nuova suddivisione dei capitoli.</testo>
+    <valutazione>
+      <perLibro trama="5" caratterizzazionePersonaggi="5" ambientazione="5"/>
+    </valutazione>
+  </recensione>
+  <recensione id="2" idUtente="3" dataPubblicazione="2024-06-01" moderata="No">
+    <titolo>Capolavoro</titolo>
+    <testo>Koe no Katachi - La Forma della Voce è un manga ideato da Yoshitoki Oima nel 2013, sotto la supervisione della federazione giapponese per la sordità. La trama vede protagonista Shoya Ishida, un ragazzino molto vivace che cerca di vincere contro la noia facendo giochi pericolosi e prendendo in giro una sua compagna di classe sorda, Shoko Nishimiya, diventando per tutti un bullo da evitare. Infatti la povera ragazzina sorda si trasferisce in un'altra scuola, e Ishida si sente il colpevole di ciò; anni dopo i due si ritrovano, entrambi cresciuti, e Ishida decide di dover rimediare assolutamente al suo passato comportamento frequentando Nishimiya. I due troveranno parecchie difficoltà lungo il cammino. Lo sviluppo della trama è sempre più coinvolgente, non accade tutti i giorni di appassionarmi alla lettura dopo 3 o 4 capitoli, infatti inizialmente la storia presenta già qualche alto tono pronto a farti incuriosire, per poi tornare subito nel passato, per rivivere i vecchi momenti dei due protagonisti. Fase molto importante della storia, anzi sono le basi di questa storia, che poi porteranno gran parte dei guai nei capitoli successivi. La trama potrebbe sembrare forzata, una bambina affetta da un handicap può essere un aspetto indicato a commuovere in certi casi o a far pena, ma non è così, personalmente ho trovato incredibile come l'autrice riesca a farti immedesimare nella ragazza. Sette volumi sono stati più che sufficienti a farti vivere una storia drammatica, piena di alti e bassi, ma l'unica pecca del manga è che manca un po' di romanticismo, però quest'ultimo aspetto forse avrebbe forzato un po' alcuni eventi. La storia procede benissimo fino ad arrivare agli ultimi battenti, quando tutto sta per concludersi lo si può avvertire, da come procedono gli alti e bassi, e dai rapporti tra i personaggi; il finale l'ho trovato abbastanza piacevole, giusto e coerente, non poteva esserci un finale migliore.</testo>
+    <valutazione>
+      <perLibro trama="5" caratterizzazionePersonaggi="5" ambientazione="5"/>
+    </valutazione>
+  </recensione>
+  <recensione id="3" idUtente="4" dataPubblicazione="2024-06-02" moderata="No">
+    <titolo>Stratosferico</titolo>
+    <testo>Bloodborne è un'esperienza di gioco impeccabile. L'ambientazione gotica e il gameplay frenetico creano una tensione costante. La sfida elevata rende ogni vittoria gratificante. Il design dei nemici e dei livelli è stupefacente. Un capolavoro assoluto.</testo>
+    <valutazione>
+      <perVideogioco sceneggiatura="5" tecnica="5" giocabilita="4"/>
+    </valutazione>
+  </recensione>
 </recensioni>

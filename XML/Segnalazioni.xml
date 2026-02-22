@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <segnalazioni xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema/Segnalazioni.xsd" ultimoId="1">
-	<segnalazione id="1" idSegnalato="5" idSegnalatore="6" dataOraSegnalazione="2024-06-03 16:00:00" categoria="Linguaggio Volgare" seen="Si">
-		<testo>L'utente indicato ha offeso la mia persona per via del modo con cui ha risposto ad una mia domanda.</testo>
-		<tipoSegnalazione idProdotto="1">
-			<perIntervento idIntervento="2"></perIntervento>
-		</tipoSegnalazione>
-	</segnalazione>
+  <segnalazione id="1" idSegnalato="5" idSegnalatore="6" dataOraSegnalazione="2024-06-03 16:00:00" categoria="Linguaggio Volgare" seen="No">
+    <testo>L'utente indicato ha offeso la mia persona per via del modo con cui ha risposto ad una mia domanda.</testo>
+    <tipoSegnalazione>
+      <perIntervento idDiscussione="1" idIntervento="2"/>
+    </tipoSegnalazione>
+  </segnalazione>
 </segnalazioni>

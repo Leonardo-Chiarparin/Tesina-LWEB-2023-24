@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE categorie SYSTEM "Dtd/Categorie_Libri.dtd">
-
 <categorie>
-	<categoria id="1">
-		<denominazione>Biografia</denominazione>
-	</categoria>
+  <categoria id="1">
+    <denominazione>Biografia</denominazione>
+    <immagine>../../Immagini/feather-solid.svg</immagine>
+  </categoria>
+  <categoria id="2">
+    <denominazione>Manga</denominazione>
+    <immagine>../../Immagini/torii-gate-solid.svg</immagine>
+  </categoria>
+  <categoria id="3">
+    <denominazione>Romance</denominazione>
+    <immagine>../../Immagini/heart-pulse-solid.svg</immagine>
+  </categoria>
+  <categoria id="4">
+    <denominazione>Commedia</denominazione>
+    <immagine>../../Immagini/face-grin-squint-tears-solid.svg</immagine>
+  </categoria>
+  <categoria id="5">
+    <denominazione>Sport</denominazione>
+    <immagine>../../Immagini/medal-solid.svg</immagine>
+  </categoria>
+  <categoria id="6">
+    <denominazione>Horror</denominazione>
+    <immagine>../../Immagini/ghost-solid.svg</immagine>
+  </categoria>
+  <categoria id="7">
+    <denominazione>Fantasy</denominazione>
+    <immagine>../../Immagini/hat-wizard-solid.svg</immagine>
+  </categoria>
+  <categoria id="8">
+    <denominazione>Avventura</denominazione>
+    <immagine>../../Immagini/rocket-solid.svg</immagine>
+  </categoria>
 </categorie>

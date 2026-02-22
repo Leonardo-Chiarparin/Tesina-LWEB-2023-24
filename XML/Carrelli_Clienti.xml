@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <carrelli xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema/Carrelli_Clienti.xsd">
-  <carrello idCliente="4">
-  </carrello>
-  <carrello idCliente="5">
-  </carrello>
+  <carrello idCliente="4"/>
+  <carrello idCliente="5"/>
   <carrello idCliente="6">
-	<offerta id="2" idProdotto="2">
-		<prezzoContabile>84.50</prezzoContabile>
-		<sconto>
-			<scontoFuturo percentuale="2.00" inizioApplicazione="2024-06-01" fineApplicazione="2024-09-01"></scontoFuturo>
-		</sconto>
-		<quantitativo>1</quantitativo>
-	</offerta>
+    <offerta id="2" idProdotto="2">
+      <prezzoContabile>84.50</prezzoContabile>
+      <quantitativo>1</quantitativo>
+    </offerta>
   </carrello>
 </carrelli>

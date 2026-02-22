@@ -1,19 +1,32 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml version="1.0" encoding="UTF-8"?>
 <acquisti xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema/Acquisti_Clienti.xsd">
-  <acquistiPerCliente idCliente="4" ultimoIdPerAcquisto="1">
-	<acquistoPerCliente id="1" dataAcquisto="2024-05-28" dataConsegna="2024-05-30" prezzoTotale="52.45" scontoGenerale="0.00">
-		<offerta id="1" idProdotto="1">
-			<prezzoContabile>52.45</prezzoContabile>
-			<quantitativo>1</quantitativo>
-			<bonus>
-				<numeroCrediti>25.00</numeroCrediti>
-			</bonus>
-		</offerta>
-	</acquistoPerCliente>
+  <acquistiPerCliente idCliente="4" ultimoIdPerAcquisto="2">
+    <acquistoPerCliente id="1" indirizzoConsegna="Via del Salice, 82" cittaConsegna="Latina" capConsegna="04100" dataAcquisto="2024-05-28" dataConsegna="2024-05-30" prezzoTotale="52.45" scontoGenerale="0.00">
+      <offerta id="1" idProdotto="1">
+        <prezzoContabile>52.45</prezzoContabile>
+        <quantitativo>1</quantitativo>
+        <bonus>
+          <numeroCrediti>25.00</numeroCrediti>
+        </bonus>
+      </offerta>
+    </acquistoPerCliente>
+    <acquistoPerCliente id="2" indirizzoConsegna="Via del Salice, 82" cittaConsegna="Latina" capConsegna="04100" dataAcquisto="2024-05-31" dataConsegna="2024-06-02" prezzoTotale="175.00" scontoGenerale="0.00">
+      <offerta id="4" idProdotto="4">
+        <prezzoContabile>35.00</prezzoContabile>
+        <quantitativo>5</quantitativo>
+      </offerta>
+    </acquistoPerCliente>
   </acquistiPerCliente>
-  <acquistiPerCliente idCliente="5" ultimoIdPerAcquisto="0">
-  </acquistiPerCliente>
-  <acquistiPerCliente idCliente="6" ultimoIdPerAcquisto="0">
+  <acquistiPerCliente idCliente="5" ultimoIdPerAcquisto="0"/>
+  <acquistiPerCliente idCliente="6" ultimoIdPerAcquisto="1">
+    <acquistoPerCliente id="1" indirizzoConsegna="Via Don Carlo Torello, 112" cittaConsegna="Latina" capConsegna="04100" dataAcquisto="2024-05-28" dataConsegna="2024-05-30" prezzoTotale="249.50" scontoGenerale="0.00">
+      <offerta id="3" idProdotto="3">
+        <prezzoContabile>249.50</prezzoContabile>
+        <sconto>
+          <scontoFuturo percentuale="5.00" inizioApplicazione="2024-09-01" fineApplicazione="2024-12-01"/>
+        </sconto>
+        <quantitativo>1</quantitativo>
+      </offerta>
+    </acquistoPerCliente>
   </acquistiPerCliente>
 </acquisti>

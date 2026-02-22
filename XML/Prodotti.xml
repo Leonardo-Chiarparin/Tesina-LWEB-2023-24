@@ -1,53 +1,225 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE prodotti SYSTEM "Dtd/Prodotti.dtd">
-
-<prodotti>
-	<prodotto id="1">
-		<nome>Bloodborne</nome>
-		<tipologia>
-			<videogioco>
-				<piattaforma idPiattaforma="1"></piattaforma>
-				<generi>
-					<genere idGenere="1"></genere>
-					<genere idGenere="2"></genere>
-				</generi>
-				<casaProduzione>FromSoftware</casaProduzione>
-			</videogioco>
-		</tipologia>
-		<descrizione>Un incredibile viaggio in una città gotica ricostruita con una dovizia di dettagli e popolata da incubi e tenebre!</descrizione>
-		<immagine>../Immagini/Bloodborne_Ps4.jpg</immagine>
-		<prezzoListino>104.95</prezzoListino>
-		<annoUscita>2015</annoUscita>
-		<recensioni>
-			<recensione idRecensione="1"></recensione>
-		</recensioni>
-		<discussioni>
-			<discussione idDiscussione="1"></discussione>
-		</discussioni>
-	</prodotto>
-	<prodotto id="2">
-		<nome>Fuga dal campo 14</nome>
-		<tipologia>
-			<libro>
-				<categorie>
-					<categoria idCategoria="1"></categoria>
-				</categorie>
-				<autori>
-					<autore>
-						<nome>Blain</nome>
-						<cognome>Harden</cognome>
-					</autore>
-				</autori>
-			</libro>
-		</tipologia>
-		<descrizione>Shin Dong-hyuk è l'unico uomo nato in un campo di prigionia della Corea del Nord ad essere riuscito a scappare. La sua fuga e il libro che la racconta sono diventati un caso internazionale, che ha convinto le Nazioni Unite a costituire una commissione d'indagine sui campi di prigionia nordcoreani. Il Campo 14 è grande quanto Los Angeles, ed è visibile su Google Maps: eppure resta invisibile agli occhi del mondo. Il crimine che Shin ha commesso è avere uno zio che negli anni cinquanta fuggì in Corea del Sud; nasce quindi nel 1982 dietro il filo spinato del campo, dove la sua famiglia è stata rinchiusa da decenni. Non sa che esiste il mondo esterno, ed è a tutti gli effetti uno schiavo. Solo a ventitré anni riuscirà a fuggire, grazie all'aiuto di un compagno che tenterà la fuga con lui, e ad arrivare a piedi e con vestiti di fortuna in Cina, e da lì in America. Questa è la sua storia.</descrizione>
-		<immagine>../Immagini/Fuga_dal_Campo_14.jpg</immagine>
-		<prezzoListino>84.50</prezzoListino>
-		<annoUscita>2012</annoUscita>
-		<recensioni>
-			<recensione idRecensione="2"></recensione>
-		</recensioni>
-		<discussioni>
-		</discussioni>
-	</prodotto>
+<prodotti ultimoId="10">
+  <prodotto id="1">
+    <nome>Bloodborne</nome>
+    <tipologia>
+      <videogioco>
+        <piattaforma idPiattaforma="1"/>
+        <generi>
+          <genere idGenere="1"/>
+          <genere idGenere="2"/>
+        </generi>
+        <casaProduzione>FromSoftware</casaProduzione>
+      </videogioco>
+    </tipologia>
+    <descrizione>Un incredibile viaggio in una città gotica ricostruita con una dovizia di dettagli e popolata da incubi e tenebre!</descrizione>
+    <immagine>../../Immagini/Catalogo/Bloodborne_PS4.jpg</immagine>
+    <prezzoListino>104.95</prezzoListino>
+    <annoUscita>2015</annoUscita>
+    <recensioni>
+      <recensione idRecensione="3"/>
+    </recensioni>
+    <discussioni>
+      <discussione idDiscussione="1"/>
+    </discussioni>
+  </prodotto>
+  <prodotto id="2">
+    <nome>Fuga dal Campo 14</nome>
+    <tipologia>
+      <libro>
+        <categorie>
+          <categoria idCategoria="1"/>
+        </categorie>
+        <autori>
+          <autore>
+            <nome>Blain</nome>
+            <cognome>Harden</cognome>
+          </autore>
+        </autori>
+      </libro>
+    </tipologia>
+    <descrizione>Shin Dong-hyuk è l'unico uomo nato in un campo di prigionia della Corea del Nord ad essere riuscito a scappare. La sua fuga e il libro che la racconta sono diventati un caso internazionale, che ha convinto le Nazioni Unite a costituire una commissione d'indagine sui campi di prigionia nordcoreani. Il Campo 14 è grande quanto Los Angeles, ed è visibile su Google Maps: eppure resta invisibile agli occhi del mondo. Il crimine che Shin ha commesso è avere uno zio che negli anni cinquanta fuggì in Corea del Sud; nasce quindi nel 1982 dietro il filo spinato del campo, dove la sua famiglia è stata rinchiusa da decenni. Non sa che esiste il mondo esterno, ed è a tutti gli effetti uno schiavo. Solo a ventitré anni riuscirà a fuggire, grazie all'aiuto di un compagno che tenterà la fuga con lui, e ad arrivare a piedi e con vestiti di fortuna in Cina, e da lì in America. Questa è la sua storia.</descrizione>
+    <immagine>../../Immagini/Catalogo/Fuga_dal_Campo_14.jpg</immagine>
+    <prezzoListino>84.50</prezzoListino>
+    <annoUscita>2012</annoUscita>
+    <recensioni/>
+    <discussioni/>
+  </prodotto>
+  <prodotto id="3">
+    <nome>La Forma della Voce (Ultimate Box)</nome>
+    <tipologia>
+      <libro>
+        <categorie>
+          <categoria idCategoria="2"/>
+          <categoria idCategoria="3"/>
+        </categorie>
+        <autori>
+          <autore>
+            <nome>Yoshitoki</nome>
+            <cognome>Oima</cognome>
+          </autore>
+        </autori>
+      </libro>
+    </tipologia>
+    <descrizione>Shoya Ishida frequenta le scuole elementari e non sopporta in alcun modo le ragazze. Adora invece mettersi alla prova con i compagni maschi, ingaggiando assurde prove di coraggio. Le cose cambiano quando nella sua classe arriva una nuova alunna, Shoko Nishimiya, una bambina non udente che usa un quaderno per comunicare con gli altri... Shoko viene subito presa di mira dai bulletti della scuola, in special modo da Shoya. Il ragazzino, però, non può ancora sapere che gli effetti del suo comportamento innescheranno la miccia che sconvolgerà la sua prospettiva sulle cose, stravolgendo il suo futuro e quello della sua compagna...</descrizione>
+    <immagine>../../Immagini/Catalogo/La_Forma_della_Voce.jpg</immagine>
+    <prezzoListino>249.50</prezzoListino>
+    <annoUscita>2021</annoUscita>
+    <recensioni>
+      <recensione idRecensione="2"/>
+    </recensioni>
+    <discussioni/>
+  </prodotto>
+  <prodotto id="4">
+    <nome>Slam Dunk (Vol. 1)</nome>
+    <tipologia>
+      <libro>
+        <categorie>
+          <categoria idCategoria="2"/>
+          <categoria idCategoria="5"/>
+        </categorie>
+        <autori>
+          <autore>
+            <nome>Takehiko</nome>
+            <cognome>Inoue</cognome>
+          </autore>
+        </autori>
+      </libro>
+    </tipologia>
+    <descrizione>Hanamichi Sakuragi è un giovane teppista attaccabrighe che si iscrive al primo anno della scuola superiore Shohoku, nella prefettura di Kanagawa. È particolarmente sfortunato con le ragazze e ciò lo rende il triste bersaglio delle ripetute prese in giro da parte dei suoi amici Mito, Okusu, Takamiya e Noma. Dopo essere stato scaricato da una ragazza che era innamorata di un giocatore di basket, Hanamichi inizia ad odiare visceralmente questo sport; le cose, tuttavia, cambiano quando incontra Haruko Akagi, matricola come lui e appassionata di pallacanestro: la ragazza, infatti, lo incoraggia ad entrare nella squadra di basket della scuola impressionata dalla sua altezza e dalla sua prestanza fisica. Hanamichi se ne innamora perdutamente e accetta solo per poterla conquistare.</descrizione>
+    <immagine>../../Immagini/Catalogo/Slam_Dunk_1.jpg</immagine>
+    <prezzoListino>35.00</prezzoListino>
+    <annoUscita>2020</annoUscita>
+    <recensioni>
+      <recensione idRecensione="1"/>
+    </recensioni>
+    <discussioni/>
+  </prodotto>
+  <prodotto id="5">
+    <nome>Persona 5: Royal</nome>
+    <tipologia>
+      <videogioco>
+        <piattaforma idPiattaforma="3"/>
+        <generi>
+          <genere idGenere="2"/>
+          <genere idGenere="10"/>
+        </generi>
+        <casaProduzione>Atlus, P Studio</casaProduzione>
+      </videogioco>
+    </tipologia>
+    <descrizione>Tentando di fermare un'aggressione ai danni di una donna, il protagonista del gioco, un ragazzo sedicenne il cui nome viene scelto dal giocatore, viene denunciato e arrestato dalla polizia dopo aver ferito involontariamente il colpevole. A causa di ciò, la sua fedina penale viene macchiata e per questo viene espulso dalla sua vecchia scuola e costretto a trasferirsi a Tokyo per frequentare la Shujin Academy, l'unica scuola disposta ad accettarlo. Il giovane va dunque a vivere nel quartiere di Yongen-Jaya, al caffè Leblanc, gestito da Sōjirō Sakura, conoscente dei suoi genitori, che accetta di prenderlo sotto la sua custodia durante il suo anno di libertà vigilata.</descrizione>
+    <immagine>../../Immagini/Catalogo/Persona_5_Royal.jpg</immagine>
+    <prezzoListino>299.95</prezzoListino>
+    <annoUscita>2022</annoUscita>
+    <recensioni/>
+    <discussioni/>
+  </prodotto>
+  <prodotto id="6">
+    <nome>The Last of Us: Parte I</nome>
+    <tipologia>
+      <videogioco>
+        <piattaforma idPiattaforma="2"/>
+        <generi>
+          <genere idGenere="2"/>
+          <genere idGenere="6"/>
+        </generi>
+        <casaProduzione>Naughty Dog</casaProduzione>
+      </videogioco>
+    </tipologia>
+    <descrizione>The Last of Us è ambientato nel 2013, anno di uscita del gioco. Il fungo cordyceps (realmente esistente) causa un’epidemia di infezioni corrompendo la mente e i corpi delle persone e trasformandole in pericolosi mostri aggressivi e letali. Nel giro di pochi giorni la società collassa e poco possono istituzioni ed esercito di fronte all’irrefrenabile e crescente orda di infetti.</descrizione>
+    <immagine>../../Immagini/Catalogo/The_Last_of_Us_I.jpg</immagine>
+    <prezzoListino>299.95</prezzoListino>
+    <annoUscita>2022</annoUscita>
+    <recensioni/>
+    <discussioni/>
+  </prodotto>
+  <prodotto id="7">
+    <nome>The Legend of Zelda: Breath of the Wild</nome>
+    <tipologia>
+      <videogioco>
+        <piattaforma idPiattaforma="4"/>
+        <generi>
+          <genere idGenere="2"/>
+          <genere idGenere="5"/>
+          <genere idGenere="6"/>
+          <genere idGenere="7"/>
+        </generi>
+        <casaProduzione>Nintendo EPD</casaProduzione>
+      </videogioco>
+    </tipologia>
+    <descrizione>The Legend of Zelda: Breath of the Wild rivoluziona i capisaldi che hanno caratterizzato la serie per 30 anni, mantenendosi però fedele al concept di fondo. La trama del gioco inizia avvolta nel mistero... Link si risveglia dopo un sonno durato 100 anni in un luogo che non aveva mai visto prima. Per di più non ha nessun ricordo del passato e si ritrova davanti agli occhi un regno in rovina. Mossi i primi passi in questa landa desolata, Link decide di intraprendere un grande viaggio per recuperare la memoria e scoprire cosa è accaduto al Regno di Hyrule. Ma un’entità malefica incombe... Riuscirà l’eroe leggendario a portare a termine il suo compito? La libertà concessa al giocatore in questo capitolo di The Legend of Zelda non ha precedenti nella serie. Per la prima volta in assoluto Link potrà esplorare un mondo open-world che si espande a perdita d’occhio e dove ogni luogo visibile può essere raggiunto e visitato.I giocatori si ritroveranno a scalare torri e montagne in cerca di nuove destinazioni, per poi scegliere un percorso per raggiungerle. Lungo la strada dovranno affrontare nemici giganteschi, cacciare animali selvatici e raccogliere il cibo e gli oggetti che servono per sopravvivere.</descrizione>
+    <immagine>../../Immagini/Catalogo/The_Legend_of_Zelda_BOTW.jpg</immagine>
+    <prezzoListino>224.50</prezzoListino>
+    <annoUscita>2017</annoUscita>
+    <recensioni/>
+    <discussioni/>
+  </prodotto>
+  <prodotto id="8">
+    <nome>Elden Ring: Edizione Shadow of the Erdtree</nome>
+    <tipologia>
+      <videogioco>
+        <piattaforma idPiattaforma="2"/>
+        <generi>
+          <genere idGenere="2"/>
+          <genere idGenere="5"/>
+          <genere idGenere="10"/>
+        </generi>
+        <casaProduzione>FromSoftware</casaProduzione>
+      </videogioco>
+    </tipologia>
+    <descrizione>Nell'Interregno governato dalla regina Marika l'Eterna, l'Anello ancestrale, sorgente dell'Albero Madre, è andato in frantumi. I discendenti di Marika, progenie di semidei, rivendicarono i frammenti dell'Anello ancestrale, conosciuti col nome di rune maggiori. La follia derivata dalla loro nuova forza diede origine a un conflitto: la Disgregazione. Una guerra che portò all'abbandono della Volontà superiore. E ora la guida della grazia scenderà sui Senzaluce, cui è stata preclusa la grazia dell'oro e sono stati esiliati dall'Interregno. Senza vita eppure vivente, avendo perduto la tua grazia da tempo, segui il sentiero verso l'Interregno oltre il mare nebbioso per apparire dinanzi all'Anello ancestrale. E divenire Lord. Espansione Shadow of the Erdtree: Le terre delle ombre. Un luogo offuscato dall'Albero Madre. Qui per prima giunse la divina Marika. Una landa distrutta da una battaglia dimenticata. Arsa dalle fiamme di Messmer. Fu alla volta di questa regione che partì Miquella. Spogliandosi del suo corpo, della sua forza, del suo retaggio. Di ogni tratto aureo. E ora Miquella attende il ritorno del suo Lord promesso.</descrizione>
+    <immagine>../../Immagini/Catalogo/Elden_Ring_SOTE.jpg</immagine>
+    <prezzoListino>399.95</prezzoListino>
+    <annoUscita>2024</annoUscita>
+    <recensioni/>
+    <discussioni/>
+  </prodotto>
+  <prodotto id="9">
+    <nome>Harry Potter. Edizione Castello di Hogwarts</nome>
+    <tipologia>
+      <libro>
+        <categorie>
+          <categoria idCategoria="4"/>
+          <categoria idCategoria="7"/>
+          <categoria idCategoria="8"/>
+        </categorie>
+        <autori>
+          <autore>
+            <nome>Joanne Kathleen</nome>
+            <cognome>Rowling</cognome>
+          </autore>
+        </autori>
+      </libro>
+    </tipologia>
+    <descrizione>Harry Potter è un ragazzo normale, o quantomeno è convinto di esserlo, anche se a volte provoca strani fenomeni, come farsi ricrescere i capelli inesorabilmente tagliati dai perfidi zii. Vive con loro al numero 4 di Privet Drive: una strada di periferia come tante, dove non succede mai nulla fuori dall’ordinario. Finché un giorno, poco prima del suo undicesimo compleanno, riceve una misteriosa lettera che gli rivela la sua vera natura: Harry è un mago e la Scuola di Magia e Stregoneria di Hogwarts è pronta ad accoglierlo...</descrizione>
+    <immagine>../../Immagini/Catalogo/Harry_Potter_la_Serie_Completa.jpg</immagine>
+    <prezzoListino>694.00</prezzoListino>
+    <annoUscita>2022</annoUscita>
+    <recensioni/>
+    <discussioni/>
+  </prodotto>
+  <prodotto id="10">
+    <nome>Homunculus. L'occhio dell'anima (Vol. 1)</nome>
+    <tipologia>
+      <libro>
+        <categorie>
+          <categoria idCategoria="2"/>
+          <categoria idCategoria="6"/>
+        </categorie>
+        <autori>
+          <autore>
+            <nome>Hideo</nome>
+            <cognome>Yamamoto</cognome>
+          </autore>
+        </autori>
+      </libro>
+    </tipologia>
+    <descrizione>Susumu è uno strano e misterioso individuo, con un passato da nascondere e il vizio della menzogna. Indossa un completo, ha un aspetto distinto, eppure è un senzatetto. Vive ai margini di un parco, residenza fissa di un gruppo di clochard, e sebbene spesso si unisca a loro, allo stesso tempo mantiene le distanze, dimostrando diffidenza per tutto e tutti. L'unica cosa a cui è legato è la sua macchina, una specie di ventre materno, di cui sente il morboso bisogno. E proprio per guadagnare i soldi necessari a riscattare l'amato veicolo, rimosso dalla polizia, Susumu accetta di sottoporsi alla Trapanazione, un intervento chirurgico al cranio teso a destare i sensi sopiti dell'uomo. L'esperimento è condotto e finanziato da un ricco ed eccentrico studente di medicina, curioso di addentrarsi nel mondo del paranormale… Un viaggio a tinte fosche nell'animo umano.</descrizione>
+    <immagine>../../Immagini/Catalogo/Homunculus_1.jpg</immagine>
+    <prezzoListino>35.00</prezzoListino>
+    <annoUscita>2020</annoUscita>
+    <recensioni/>
+    <discussioni/>
+  </prodotto>
 </prodotti>

@@ -1,25 +1,19 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml version="1.0" encoding="UTF-8"?>
 <discussioni xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema/Discussioni.xsd" ultimoId="1">
-	<discussione id="1" idAutore="6" dataOraIssue="2024-06-03 10:32:00" moderata="No" risolta="Si">
-		<titolo>Offline?</titolo>
-		<descrizione>È richiesto l'abbonamento a PlayStation Plus oppure si può giocare anche senza?</descrizione>
-		<interventi ultimoId="2">
-			<intervento id="1" idPartecipante="4" dataOraIssue="2024-06-03 14:17:00" moderato="No">
-				<testo>
-				  Puoi giocare anche offline. Però ti assicuro che la modalità online ti può aiutare molto nei momenti in cui il gioco si fa estremamente difficile. Puoi chiedere il supporto di un altro giocatore scrivendo un messaggio nella community di Bloodborne su PS, così facendo il suo cacciatore interverrà direttamente nel tuo scenario di gioco e ti sosterrà contro i Boss più ostici.
-				</testo>
-				<valutazioni>
-					<valutazione idVotante="6" supporto="5" utilita="5"></valutazione>
-				</valutazioni>
-			</intervento>
-			<intervento id="2" idPartecipante="5" dataOraIssue="2024-06-03 15:00:00" moderato="Si">
-				<testo>
-				  Domanda inutile a mio avviso... Ti basta fare una ricerca su Internet!!!
-				</testo>
-				<valutazioni>
-				</valutazioni>
-			</intervento>
-		</interventi>
-	</discussione>
+  <discussione id="1" idAutore="6" dataOraIssue="2024-06-03 10:32:00" moderata="No" risolta="No">
+    <titolo>Offline?</titolo>
+    <descrizione>È richiesto l'abbonamento a PlayStation Plus oppure si può giocare anche senza?</descrizione>
+    <interventi ultimoId="2">
+      <intervento id="1" idPartecipante="4" dataOraIssue="2024-06-03 14:17:00" moderato="No">
+        <testo>Puoi giocare anche offline. Però ti assicuro che la modalità online ti può aiutare molto nei momenti in cui il gioco si fa estremamente difficile. Puoi chiedere il supporto di un altro giocatore scrivendo un messaggio nella community di Bloodborne su PS, così facendo il suo cacciatore interverrà direttamente nel tuo scenario di gioco e ti sosterrà contro i Boss più ostici.</testo>
+        <valutazioni>
+          <valutazione idVotante="6" supporto="5" utilita="5"/>
+        </valutazioni>
+      </intervento>
+      <intervento id="2" idPartecipante="5" dataOraIssue="2024-06-03 15:00:00" moderato="No">
+        <testo>Domanda inutile a mio avviso... Ti basta fare una ricerca su Internet!!!</testo>
+        <valutazioni/>
+      </intervento>
+    </interventi>
+  </discussione>
 </discussioni>

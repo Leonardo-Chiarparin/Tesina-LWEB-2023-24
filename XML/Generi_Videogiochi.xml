@@ -1,11 +1,37 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE generi SYSTEM "Dtd/Generi_Videogiochi.dtd">
-
 <generi>
-	<genere id="1">
-		<denominazione>Azione</denominazione>
-	</genere>
-	<genere id="2">
-		<denominazione>Avventura</denominazione>
-	</genere>
+  <genere id="1">
+    <denominazione>Azione</denominazione>
+  </genere>
+  <genere id="2">
+    <denominazione>Avventura</denominazione>
+  </genere>
+  <genere id="3">
+    <denominazione>Arcade</denominazione>
+  </genere>
+  <genere id="4">
+    <denominazione>Sportivo</denominazione>
+  </genere>
+  <genere id="5">
+    <denominazione>Picchiaduro</denominazione>
+  </genere>
+  <genere id="6">
+    <denominazione>Sparatutto</denominazione>
+  </genere>
+  <genere id="7">
+    <denominazione>Enigmi e Puzzle</denominazione>
+  </genere>
+  <genere id="8">
+    <denominazione>Simulazione</denominazione>
+  </genere>
+  <genere id="9">
+    <denominazione>Horror</denominazione>
+  </genere>
+  <genere id="10">
+    <denominazione>Di Ruolo</denominazione>
+  </genere>
+  <genere id="11">
+    <denominazione>Educativo</denominazione>
+  </genere>
 </generi>

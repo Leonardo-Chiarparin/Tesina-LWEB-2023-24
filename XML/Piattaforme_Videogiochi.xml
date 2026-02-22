@@ -1,8 +1,20 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE piattaforme SYSTEM "Dtd/Piattaforme_Videogiochi.dtd">
-
 <piattaforme>
-	<piattaforma id="1">
-		<denominazione>PlayStation 4</denominazione>
-	</piattaforma>
+  <piattaforma id="1">
+    <denominazione>PlayStation 4</denominazione>
+    <immagine>../../Immagini/playstation-brands-solid.svg</immagine>
+  </piattaforma>
+  <piattaforma id="2">
+    <denominazione>PlayStation 5</denominazione>
+    <immagine>../../Immagini/playstation-brands-solid.svg</immagine>
+  </piattaforma>
+  <piattaforma id="3">
+    <denominazione>Xbox Series X e S</denominazione>
+    <immagine>../../Immagini/xbox-brands-solid.svg</immagine>
+  </piattaforma>
+  <piattaforma id="4">
+    <denominazione>Nintendo Switch</denominazione>
+    <immagine>../../Immagini/gamepad-solid.svg</immagine>
+  </piattaforma>
 </piattaforme>

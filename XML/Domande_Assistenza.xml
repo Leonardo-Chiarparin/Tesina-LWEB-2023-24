@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<domande xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema/Domande_Assistenza.xsd" ultimoId="1">
+  <domanda id="1" idRichiedente="5" dataOraRichiesta="2024-05-30 13:00:00" seen="No"/>
+</domande>

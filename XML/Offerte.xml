@@ -1,18 +1,47 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-
-<offerte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema/Offerte.xsd" ultimoId="2">
-	<offerta id="1" idProdotto="1">
-		<prezzoContabile>52.45</prezzoContabile>
-		<quantitativo>29</quantitativo>
-		<bonus>
-			<numeroCrediti>25.00</numeroCrediti>
-		</bonus>
-	</offerta>
-	<offerta id="2" idProdotto="2">
-		<prezzoContabile>84.50</prezzoContabile>
-		<sconto>
-			<scontoFuturo percentuale="2.00" inizioApplicazione="2024-06-01" fineApplicazione="2024-09-01"></scontoFuturo>
-		</sconto>
-		<quantitativo>29</quantitativo>
-	</offerta>
+<?xml version="1.0" encoding="UTF-8"?>
+<offerte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schema/Offerte.xsd" ultimoId="8">
+  <offerta id="1" idProdotto="1">
+    <prezzoContabile>52.45</prezzoContabile>
+    <quantitativo>29</quantitativo>
+    <bonus>
+      <numeroCrediti>25.00</numeroCrediti>
+    </bonus>
+  </offerta>
+  <offerta id="2" idProdotto="2">
+    <prezzoContabile>84.50</prezzoContabile>
+    <quantitativo>29</quantitativo>
+  </offerta>
+  <offerta id="3" idProdotto="3">
+    <prezzoContabile>249.50</prezzoContabile>
+    <sconto>
+      <scontoFuturo percentuale="5.00" inizioApplicazione="2024-09-01" fineApplicazione="2024-12-01"/>
+    </sconto>
+    <quantitativo>9</quantitativo>
+  </offerta>
+  <offerta id="4" idProdotto="4">
+    <prezzoContabile>35.00</prezzoContabile>
+    <quantitativo>25</quantitativo>
+  </offerta>
+  <offerta id="5" idProdotto="5">
+    <prezzoContabile>299.95</prezzoContabile>
+    <sconto>
+      <scontoATempo percentuale="15.00" inizioApplicazione="2024-08-01" fineApplicazione="2024-10-01"/>
+    </sconto>
+    <quantitativo>5</quantitativo>
+  </offerta>
+  <offerta id="6" idProdotto="6">
+    <prezzoContabile>299.95</prezzoContabile>
+    <quantitativo>20</quantitativo>
+  </offerta>
+  <offerta id="7" idProdotto="7">
+    <prezzoContabile>224.50</prezzoContabile>
+    <quantitativo>30</quantitativo>
+    <bonus>
+      <numeroCrediti>5.00</numeroCrediti>
+    </bonus>
+  </offerta>
+  <offerta id="8" idProdotto="8">
+    <prezzoContabile>399.95</prezzoContabile>
+    <quantitativo>30</quantitativo>
+  </offerta>
 </offerte>
