@@ -63,6 +63,7 @@
 	
 	<xsd:element name="interventoEsistente">
 		<xsd:complexType>
+			<xsd:attribute name="idDiscussione" type="xsd:positiveInteger" use="required" />
 			<xsd:attribute name="idIntervento" type="xsd:positiveInteger" use="required" />
 		</xsd:complexType>
 	</xsd:element>	

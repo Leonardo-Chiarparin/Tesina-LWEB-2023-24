@@ -28,6 +28,9 @@
 				<xsd:element ref="offerta" minOccurs="1" maxOccurs="unbounded" />
 			</xsd:sequence>
 			<xsd:attribute name="id" type="xsd:positiveInteger" use="required" />
+			<xsd:attribute name="indirizzoConsegna" type="xsd:string" use="required" />
+			<xsd:attribute name="cittaConsegna" type="xsd:string" use="required" />
+			<xsd:attribute name="capConsegna" type="xsd:string" use="required" />
 			<xsd:attribute name="dataAcquisto" type="xsd:date" use="required" />
 			<xsd:attribute name="dataConsegna" type="xsd:date" use="required" />
 			<xsd:attribute name="prezzoTotale" type="xsd:decimal" use="required" />

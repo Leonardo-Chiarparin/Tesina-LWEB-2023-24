@@ -44,9 +44,9 @@
 		<xsd:complexType>
 			<xsd:choice>
 				<xsd:element ref="perRecensione" minOccurs="1" maxOccurs="1" />
+				<xsd:element ref="perDiscussione" minOccurs="1" maxOccurs="1" />
 				<xsd:element ref="perIntervento" minOccurs="1" maxOccurs="1" />
 			</xsd:choice>
-			<xsd:attribute name="idProdotto" type="xsd:positiveInteger" use="required" /> 
 		</xsd:complexType>
 	</xsd:element>
 
@@ -55,9 +55,16 @@
 			<xsd:attribute name="idRecensione" type="xsd:positiveInteger" use="required" />
 		</xsd:complexType>
 	</xsd:element>
+	
+	<xsd:element name="perDiscussione">
+		<xsd:complexType>
+			<xsd:attribute name="idDiscussione" type="xsd:positiveInteger" use="required" />
+		</xsd:complexType>
+	</xsd:element>
 
 	<xsd:element name="perIntervento">
 		<xsd:complexType>
+			<xsd:attribute name="idDiscussione" type="xsd:positiveInteger" use="required" />
 			<xsd:attribute name="idIntervento" type="xsd:positiveInteger" use="required" />
 		</xsd:complexType>
 	</xsd:element>
