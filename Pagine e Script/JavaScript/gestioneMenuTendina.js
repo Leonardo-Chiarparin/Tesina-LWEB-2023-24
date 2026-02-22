@@ -1,3 +1,6 @@
+// TALE SCRIPT CONTIENE UNA SERIE DI FUNZIONI CHE CONSENTONO DI INTERAGIRE CON I VARI MENÙ CONTENUTI ALL'INTERNO DELLA BARRA CHE COMPONE L'INTESTAZIONE CARATTERISTICA DEL SITO
+// IN PARTICOLARE, È PREVISTO CHE, IN BASE ALLE CIRCOSTANZE, LE VARIE COMPONENTI APPAIANO E SCOMPAIANO MEDIANTE LA SOSTITUZIONE E L'APPLICAZIONE DI APPOSITE CLASSI CSS, LE QUALI, NEL NOSTRO CASO, SONO STATE NOMINATE, RISPETTIVAMENTE, "mostra" ("display: block") E "nascondi" ("display: none")
+// ALLO SCOPO DI ARRICHIRE LA GRAFICA PROPOSTA A SCHERMO, È STATA INSERITA UNA FRECCIA CHE, OLTRE A CAMBIARE DIREZIONE IN RELAZIONE ALLO STATO ATTUALE DELLE TENDINE, È STATA INTERAMENTE REALIZZATA MEDIANTE CLAUSOLE "border"  
 function gestisci_menu_utente() {
 	if(document.getElementById("menu_utente").classList.contains("nascondi")){
 		document.getElementById("freccia_tendina_utente").classList.remove("destra");
@@ -34,12 +37,14 @@ function gestisci_barra_navigazione() {
 		document.getElementById("freccia_tendina_navigazione").classList.add("giu");
 		document.getElementById("barra_navigazione").classList.remove("nascondi");
 		document.getElementById("barra_navigazione").classList.add("mostra");
+		document.getElementById("separatore_intestazione_sito").classList.add("estendi");
 	}
 	else {
 		document.getElementById("freccia_tendina_navigazione").classList.remove("giu");
 		document.getElementById("freccia_tendina_navigazione").classList.add("destra");
 		document.getElementById("barra_navigazione").classList.remove("mostra");
 		document.getElementById("barra_navigazione").classList.add("nascondi");
+		document.getElementById("separatore_intestazione_sito").classList.remove("estendi");
 		
 		if(document.getElementById("menu_tendina_prodotti").classList.contains("mostra")){
 			document.getElementById("freccia_tendina_prodotti").classList.remove("su");
